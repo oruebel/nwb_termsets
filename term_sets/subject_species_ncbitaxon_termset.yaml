@@ -1,0 +1,81 @@
+id: termset/nwb_subject_species_starter
+name: NWBSubjectSpeciesStarter
+version: 0.1.0
+prefixes:
+  NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+imports:
+  - linkml:types
+default_range: string
+
+enums:
+  SubjectSpecies:
+    permissible_values:
+      Homo sapiens:
+        description: Human.
+        meaning: NCBITaxon:9606
+      Mus musculus:
+        description: House mouse.
+        meaning: NCBITaxon:10090
+      Rattus norvegicus:
+        description: Brown rat.
+        meaning: NCBITaxon:10116
+      Macaca mulatta:
+        description: Rhesus macaque.
+        meaning: NCBITaxon:9544
+      Drosophila melanogaster:
+        description: Fruit fly.
+        meaning: NCBITaxon:7227
+      Danio rerio:
+        description: Zebrafish.
+        meaning: NCBITaxon:7955
+      Macaca nemestrina:
+        description: Pig-tailed macaque.
+        meaning: NCBITaxon:9545
+      Cricetulus griseus:
+        description: Chinese hamster.
+        meaning: NCBITaxon:10029
+      Canis lupus familiaris:
+        description: Domestic dog.
+        meaning: NCBITaxon:9615
+      Ooceraea biroi:
+        description: Clonal raider ant.
+        meaning: NCBITaxon:2015173
+      Caenorhabditis elegans:
+        description: Nematode worm.
+        meaning: NCBITaxon:6239
+      Oryctolagus cuniculus:
+        description: Rabbit.
+        meaning: NCBITaxon:9986
+      Bos taurus:
+        description: Cattle.
+        meaning: NCBITaxon:9913
+      unidentified:
+        description: Unspecified or unidentified organism label.
+        meaning: NCBITaxon:32644
+      Callithrix jacchus:
+        description: Common marmoset.
+        meaning: NCBITaxon:9483
+      Macaca fascicularis:
+        description: Cynomolgus macaque.
+        meaning: NCBITaxon:9541
+      Meriones unguiculatus:
+        description: Mongolian gerbil.
+        meaning: NCBITaxon:10047
+      Microtus ochrogaster:
+        description: Prairie vole.
+        meaning: NCBITaxon:79684
+      Procambarus clarkii:
+        description: Red swamp crayfish.
+        meaning: NCBITaxon:6728
+      Saimiri boliviensis:
+        description: Bolivian squirrel monkey.
+        meaning: NCBITaxon:27679
+      Sus scrofa domesticus:
+        description: Domestic pig.
+        meaning: NCBITaxon:9825
+      Taeniopygia guttata:
+        description: Zebra finch.
+        meaning: NCBITaxon:59729
+      Drosophila persimilis:
+        description: Drosophila persimilis.
+        meaning: NCBITaxon:7234

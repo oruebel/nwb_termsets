@@ -1,0 +1,1711 @@
+id: termset/nwb_brain_regions_uberon
+name: NWBBrainRegionsUberon
+version: 0.1.0
+prefixes:
+  UBERON: http://purl.obolibrary.org/obo/UBERON_
+imports:
+- linkml:types
+default_range: string
+enums:
+  BrainRegions:
+    permissible_values:
+      A lamina of the lateral geniculate nucleus (sensu Mustela putorius furo):
+        description: A major laminae of the lateral geniculate nucleus of the ferret receiving crossed retinal inputs, located medial to the C laminae and lateral to the A1 and P laminae.
+        meaning: UBERON:8440067
+      A1 lamina of the lateral geniculate nucleus (sensu Mustela putorius furo):
+        description: A major laminae of the lateral geniculate nucleus of the ferret receiving uncrossed retinal inputs, located medial to the C and A laminae (Linden, Guillery & Cucchiaro, 1981)
+        meaning: UBERON:8440068
+      A10 dopaminergic cell group:
+        description: 'UBERON region ''A10 dopaminergic cell group'' (UBERON:0036005). Synonyms: A10 cell group, dopaminergic group A10.'
+        meaning: UBERON:0036005
+      A11 dopaminergic cell group:
+        description: 'UBERON region ''A11 dopaminergic cell group'' (UBERON:0036006). Synonyms: A11 cell group, A11 dopamine cells, dopaminergic group A11.'
+        meaning: UBERON:0036006
+      A12 dopaminergic cell group:
+        description: 'UBERON region ''A12 dopaminergic cell group'' (UBERON:0036009). Synonyms: A12 cell group, A12 dopamine cells, dopaminergic group A12.'
+        meaning: UBERON:0036009
+      A13 dopaminergic cell group:
+        description: A group of cells that fluoresce for dopamine and are distributed in clusters that, in the primate, are ventral and medial to the mammillothalamic tract of the hypothalamus; a few extend into the reuniens nucleus of the thalamus (Felten-1983). In the mouse A13 is located ventral to the mammillothalamic tract of the thalamus in the zona incerta (adapted from Brain Info).
+        meaning: UBERON:0036007
+      A14 dopaminergic cell group:
+        description: 'UBERON region ''A14 dopaminergic cell group'' (UBERON:0036001). Synonyms: A14 cell group, A14 dopamine cells, cell group A14.'
+        meaning: UBERON:0036001
+      A15 dopaminergic cell group:
+        description: 'UBERON region ''A15 dopaminergic cell group'' (UBERON:0036002). Synonyms: A15 cell group, dopaminergic group A15.'
+        meaning: UBERON:0036002
+      A16 dopaminergic cell group:
+        description: 'UBERON region ''A16 dopaminergic cell group'' (UBERON:0036008). Synonyms: A16 cell group, dopaminergic group A16.'
+        meaning: UBERON:0036008
+      A17 dopaminergic cell group:
+        description: 'UBERON region ''A17 dopaminergic cell group'' (UBERON:0036004). Synonyms: A17 cell group, dopaminergic group A17.'
+        meaning: UBERON:0036004
+      A8 dopaminergic cell group:
+        description: 'UBERON region ''A8 dopaminergic cell group'' (UBERON:0036000). Synonyms: A8 cell group, A8 dopamine cells, dopaminergic group A8.'
+        meaning: UBERON:0036000
+      A9 dopaminergic cell group:
+        description: 'UBERON region ''A9 dopaminergic cell group'' (UBERON:0036003). Synonyms: A9 cell group, dopaminergic group A9.'
+        meaning: UBERON:0036003
+      Aaq dopaminergic cell group:
+        description: 'UBERON region ''Aaq dopaminergic cell group'' (UBERON:0036010). Synonyms: Aaq cell group, dopaminergic group Aaq.'
+        meaning: UBERON:0036010
+      accessory olfactory bulb:
+        description: 'Projection notes: Site of termination of vomeronasal nerve; projects to: other parts of pallial amygdala, medial amygdala, subpallial nucleus (Butler and Hodos)'
+        meaning: UBERON:0004069
+      agranular insular cortex:
+        description: Agranular region of the insular cortex.
+        meaning: UBERON:0034893
+      alar central lobule:
+        description: The lobulus centralis is a small square lobule, situated in the anterior cerebellar notch. It overlaps the lingula, from which it is separated by the precentral fissure; laterally, it extends along the upper and anterior part of each hemisphere, where it forms a wing-like prolongation, the alar central lobule. [WP,unvetted].
+        meaning: UBERON:0003013
+      allocortex:
+        description: The allocortex is composed of hippocampal and olfactory structures, which usually display three-layered organization[Brainspan]
+        meaning: UBERON:0014734
+      ambient gyrus:
+        description: A rostral part of the parahippocampal gyrus.
+        meaning: UBERON:0036164
+      Ammon's horn:
+        description: A part of the brain consisting of a three layered cortex located in the forebrain bordering the medial surface of the lateral ventricle. The term hippocampus is often used synonymously with hippocampal formation which consists of the hippocampus proper or Cornu Ammonis, the dentate gyrus and the subiculum.
+        meaning: UBERON:0001954
+      amygdalohippocampal area, magnocellular division:
+        description: 'UBERON region ''amygdalohippocampal area, magnocellular division'' (UBERON:0035027). Synonyms: AHiAm.'
+        meaning: UBERON:0035027
+      amygdalohippocampal area, parvocellular division:
+        description: 'UBERON region ''amygdalohippocampal area, parvocellular division'' (UBERON:0035028). Synonyms: AHiAp.'
+        meaning: UBERON:0035028
+      amygdalohippocampal transition area:
+        description: 'UBERON region ''amygdalohippocampal transition area'' (UBERON:0035026). Synonyms: AHTA.'
+        meaning: UBERON:0035026
+      amygdalopiriform transition area:
+        description: 'UBERON region ''amygdalopiriform transition area'' (UBERON:0034989). Synonyms: amygdalopiriform TA, amygdalopiriform transition area, postpiriform transition area.'
+        meaning: UBERON:0034989
+      ansiform lobule:
+        description: A lobule comprising the greater part of the hemisphere of the cerebellum; its superior and inferior surfaces are separated by the horizontal fissure into major parts known as crus I (superior semilunar lobule) and crus II (inferior semilunar lobule).
+        meaning: UBERON:0005348
+      ansiform lobule crus I:
+        description: Missing definition for term UBERON:0005976. Please replace it using linked reference.
+        meaning: UBERON:0005976
+      ansiform lobule crus II:
+        description: Missing definition for term UBERON:0005977. Please replace it using linked reference.
+        meaning: UBERON:0005977
+      anterior cingulate cortex:
+        description: The frontal part of the cingulate cortex that resembles a collar form around the corpus callosum. It includes both the ventral and dorsal areas of the cingulate cortex. Wikipedia:File:Gray727.svg.
+        meaning: UBERON:0009835
+      anterior corona radiata:
+        description: 'UBERON region ''anterior corona radiata'' (UBERON:0022425). Synonyms: anterior portion of corona radiata, cor-a.'
+        meaning: UBERON:0022425
+      anterior division of bed nuclei of stria terminalis:
+        description: One of two divisions of the nuclei of stria terminalis based on topology, connectivity and multiple stains in the rat ( Swanson-2004 ) and the mouse ( Dong-2004 ). The other division consists of the posterior nuclei of stria terminalis. The anterior division includes the anterolateral area of stria terminalis, anteromedial area of stria terminalis, oval nucleus of stria terminalis, juxtacapsular nucleus of stria terminalis, rhomboid nucleus of stria terminalis, dorsomedial nucleus of stria terminalis, fusiform nucleus of stria terminalis, ventral nucleus of stria terminalis, and the magnocellular nucleus of stria terminalis.
+        meaning: UBERON:0011173
+      anterior ectosylvian visual area (sensu Mustela putorius furo):
+        description: A multimodal area in the ferret responsive to visual, somatic, and auditory stimuli. The anterior border of AEV is coincident with the anterior portion of the ectosylvian gyrus containing higher order somatosensory cortical areas and the posterior border abuts higher order auditory cortical areas.
+        meaning: UBERON:8440063
+      anterior hypothalamic region:
+        description: 'UBERON region ''anterior hypothalamic region'' (UBERON:0002550). Synonyms: AHR, anterior hypothalamic area, chiasmal zone.'
+        meaning: UBERON:0002550
+      anterior lobe of cerebellum:
+        description: The region of the cerebellum that is anterior to the primary fissure.
+        meaning: UBERON:0002131
+      anterior median eminence:
+        description: 'UBERON region ''anterior median eminence'' (UBERON:0002648). Synonyms: AME, eminentia mediana anterior.'
+        meaning: UBERON:0002648
+      anterior nucleus of hypothalamus anterior part:
+        description: 'UBERON region ''anterior nucleus of hypothalamus anterior part'' (UBERON:0014589). Synonyms: AHNa, anterior hypothalamic nucleus anterior part, anterior hypothalamic nucleus, anterior part.'
+        meaning: UBERON:0014589
+      anterior nucleus of hypothalamus central part:
+        description: 'UBERON region ''anterior nucleus of hypothalamus central part'' (UBERON:0014590). Synonyms: AHNc, anterior hypothalamic area central part, anterior hypothalamic area, central part.'
+        meaning: UBERON:0014590
+      anterior nucleus of hypothalamus dorsal part:
+        description: 'UBERON region ''anterior nucleus of hypothalamus dorsal part'' (UBERON:0014592). Synonyms: AHNd, anterior hypothalamic dorsal part, anterior hypothalamic nucleus dorsal part.'
+        meaning: UBERON:0014592
+      anterior nucleus of hypothalamus posterior part:
+        description: 'UBERON region ''anterior nucleus of hypothalamus posterior part'' (UBERON:0014591). Synonyms: AHNp, anterior hypothalamic nucleus posterior part, anterior hypothalamic nucleus, posterior part.'
+        meaning: UBERON:0014591
+      anterior parahippocampal gyrus:
+        description: The part of the parahippocampal gyrus that includes the perirhinal and entorhinal cortices.
+        meaning: UBERON:0022383
+      anterior perforated substance:
+        description: 'Regional part of telencephalon lying on the basal surface and bounded by the olfactory trigone rostrally, the diagonal band medially and caudally and the prepiriform cortex laterally. It is characterized by many perforations caused by small blood vessels entering the gray matter (Meyer et al., J. Comp. Neurol 284: 405, 1989).'
+        meaning: UBERON:0018141
+      anterior quadrangular lobule:
+        description: 'UBERON region ''anterior quadrangular lobule'' (UBERON:0003015). Synonyms: anterior crescentic lobule of cerebellum, anterior quadrangular lobule of cerebellum [H IV et V], anterior quadrangular lobule of cerebellum.'
+        meaning: UBERON:0003015
+      anterior segment of paracentral lobule:
+        description: 'UBERON region ''anterior segment of paracentral lobule'' (UBERON:0035932). Synonyms: PCLa, anterior part of paracentral lobule, medial segment of precentral gyrus.'
+        meaning: UBERON:0035932
+      anterior temporal fusiform gyrus:
+        description: 'UBERON region ''anterior temporal fusiform gyrus'' (UBERON:0022396). Synonyms: occipitotemporal (fusiform) gyrus, anterior division.'
+        meaning: UBERON:0022396
+      anterior transverse temporal area 41:
+        description: A subdivision of the cytoarchitecturally defined temporal region of cerebral cortex. It occupies the anterior transverse temporal gyrus (H) in the bank of the lateral sulcus on the dorsal surface of the temporal lobe. Cytoarchitecturally it is bounded medially by the parainsular area 52 (H) and laterally by the posterior transverse temporal area 42 (H) (Brodmann-1909). Adapted from Brain Info.
+        meaning: UBERON:0006095
+      anterolateral lateral suprasylvian visual area (sensu Mustela putorius furo):
+        description: A visual area in the ferret that lies on the lateral bank of the suprasylvian sulcus, posterior to SIII, anterior to area PLLS and medial to A1.
+        meaning: UBERON:8440055
+      anterolateral visual area:
+        description: 'UBERON region ''anterolateral visual area'' (UBERON:0035894). Synonyms: VISal.'
+        meaning: UBERON:0035894
+      anterolateral visual area, layer 5:
+        description: 'UBERON region ''anterolateral visual area, layer 5'' (UBERON:0035908). Synonyms: VISal5.'
+        meaning: UBERON:0035908
+      anteromedial lateral suprasylvian visual area (sensu Mustela putorius furo):
+        description: A visual area in the ferret that lies medial to the fundus in the suprasylvian sulcus, posterior to the MRSS and anterior to the PMLS.
+        meaning: UBERON:8440054
+      anteromedial visual area:
+        description: 'UBERON region ''anteromedial visual area'' (UBERON:0035893). Synonyms: VISam.'
+        meaning: UBERON:0035893
+      anteromedial visual area, layer 5:
+        description: 'UBERON region ''anteromedial visual area, layer 5'' (UBERON:0035913). Synonyms: VISam5.'
+        meaning: UBERON:0035913
+      archicortex:
+        description: A portion of the cerebral cortex that, with the paleocortex, develops in association with the olfactory system, and which is phylogenetically older than the neocortex and lacks its layered structure. The embryonic archicortex corresponds to the cortex of the dentate gyrus and hippocampus in mature mammals. Being part of the limbic system, it has functions related to emotions and formation of memory. Signals being sent from the limbic lobe to the hippocampal formations can go via the archicortex as an intermediate.
+        meaning: UBERON:0002961
+      arcopallium:
+        description: A pallial region found in avias that partially overlap regions homologous to the amygdala of mammals.
+        meaning: UBERON:0007350
+      area postrema:
+        description: A small, rounded eminence on each side of the fourth ventricle, which receives nerve fibers from the solitary nucleus , spinal cord, and adjacent areas of the medulla. The area postrema lies outside the blood-brain barrier and its functions include acting as an emetic chemoreceptor.
+        meaning: UBERON:0002162
+      association cortex:
+        description: Region of the cerebral cortex that integrates diverse sensory or motor information for purposeful action.
+        meaning: UBERON:0035015
+      auditory cortex:
+        description: The part of the brain that is the ultimate target of afferent auditory information.
+        meaning: UBERON:0001393
+      barrel cortex:
+        description: One of the discrete functional units of the somatosensory cortex that processes tactile information derived from the vibrissae.
+        meaning: UBERON:0010415
+      basal forebrain:
+        description: A region of the brain consisting of ventral and rostral subcortical regions of the telencephalon, including among others, the basal ganglia, septal nuclei, amygdala, ventral pallidum, substantia innominata, and basal nucleus of Meynert.
+        meaning: UBERON:0002743
+      basal part of pons:
+        description: Ventral subdivision of the pons which consists of the massive pontine pertuberance on pontine ventral surface.
+        meaning: UBERON:0002567
+      basis pontis:
+        description: The basis pontis is the anterior portion of the pons.
+        meaning: UBERON:0024110
+      bed nuclei of the stria terminalis oval nucleus:
+        description: Part of bed nucleus of stria terminalis, comprising a distinct, large, egg-shaped collection of neurons that, together with the juxtacapsular (Ju) and rhomboid (Rh) nuclei, encompass the anterolateral area of the BST (Ju and Swanson, 1989).
+        meaning: UBERON:0023958
+      brain:
+        description: The brain is the center of the nervous system in all vertebrate, and most invertebrate, animals. Some primitive animals such as jellyfish and starfish have a decentralized nervous system without a brain, while sponges lack any nervous system at all. In vertebrates, the brain is located in the head, protected by the skull and close to the primary sensory apparatus of vision, hearing, balance, taste, and smell[WP].
+        meaning: UBERON:0000955
+      brainstem:
+        description: '''brainstem'' is a loose term that sometimes refers to the ventral parts o the brain except for any part of the telencephalon - sometimes it includes the diencephalon or subpallial telencephalon structures (ISBN:0471888893). Here we use it in a more restriced sense, to include only the medulla oblongata, pons (when present) and the midbrain tegmentum (following the ZFA definitions).'
+        meaning: UBERON:0002298
+      Brodmann (1909) area 1:
+        description: Missing definition for term UBERON:0006099. Please replace it using linked reference.
+        meaning: UBERON:0006099
+      Brodmann (1909) area 10:
+        description: Brodmann area 10, or BA10, is part of the frontal cortex in the human brain. BA10 encompasses the most anterior part of the frontal cortex, known as the frontopolar region. This area is believed to play a part in strategic processes involved in memory retrieval and executive function. This area is also called frontopolar area 10, and it refers to a subdivision of the cytoarchitecturally defined frontal region of cerebral cortex. It occupies the most rostral portions of the superior frontal gyrus and the middle frontal gyrus. In humans, on the medial aspect of the hemisphere it is bounded ventrally by the superior rostral sulcus (H). It does not extend as far as the cingulate sulcus. Cytoarchitecturally it is bounded dorsally by the granular frontal area 9, caudally by the middle frontal area 46, and ventrally by the orbital area 47 and by the rostral area 12 or, in an early version of Brodmann's cortical map (Brodmann-1909), the prefrontal Brodmann area 11-1909.
+        meaning: UBERON:0013541
+      Brodmann (1909) area 11:
+        description: Brodmann area 11 is one of Brodmann's cytologically defined regions of the brain. It is involved in planning, reasoning, and decision making.
+        meaning: UBERON:0013528
+      Brodmann (1909) area 12:
+        description: 'Brodmann area 12 is a subdivision of the cerebral cortex of the guenon defined on the basis of cytoarchitecture. It occupies the most rostral portion of the frontal lobe. Brodmann-1909 did not regard it as homologous, either topographically or cytoarchitecturally, to rostral area 12 of the human. Distinctive features (Brodmann-1905): a quite distinct internal granular layer (IV) separates slender pyramidal cells of the external pyramidal layer (III) and the internal pyramidal layer (V); the multiform layer (VI) is expanded, contains widely dispersed spindle cells and merges gradually with the underlying cortical white matter; all cells, including the pyramidal cells of the external and internal pyramidal layers are inordinately small; the internal pyramidal layer (V) also contains spindle cells in groups of two to five located close to its border with the internal granular layer (IV).'
+        meaning: UBERON:0013543
+      Brodmann (1909) area 13:
+        description: Brodmann area 13 is a subdivision of the cerebral cortex as defined on the guenon monkey and on the basis of cytoarchitecture. Brodmann area 13 is found in humans, however it seems to act as a bridge between the lateral and medial layers of the brain. Thus it is sometimes misidentified as not being a Brodmann area.
+        meaning: UBERON:0013544
+      Brodmann (1909) area 14:
+        description: Brodmann Area 14 is one of Brodmann's subdivisions of the cerebral cortex in the brain. It was defined by Brodmann in the guenon monkey. No equivalent structure exists in humans.
+        meaning: UBERON:0013545
+      Brodmann (1909) area 15:
+        description: Brodmann Area 15 is one of Brodmann's subdivisions of the cerebral cortex in the brain. Area 15 was defined by Brodmann in the guenon monkey, but he found no equivalent structure in humans. However, functional imaging experiments have found structures that may be homologous.
+        meaning: UBERON:0013546
+      Brodmann (1909) area 16:
+        description: Brodmann area 16 is a subdivision of the cerebral cortex of the guenon defined on the basis of cytoarchitecture. It is a relatively undifferentiated cortical area that Brodmann regarded as part of the insula because of the relation of its innermost multiform layer (VI) with the claustrum (VICl). The laminar organization of cortex is almost totally lacking. The molecular layer (I) is wide as in area 15 of Brodmann-1905. The space between layer I and layer VI is composed of a mixture of pyramidal cells and spindle cells with no significant number of granule cells. Pyramidal cells clump in the outer part to form glomeruli similar to those seen in some of the primary olfactory areas (Brodmann-1905). This term also refers to an area known as peripaleocortical claustral - a cytoarchitecturally defined (agranular) portion of the insula at its rostral extreme where it approaches most closely the claustrum and the prepyriform area (Stephan-76).
+        meaning: UBERON:0013547
+      Brodmann (1909) area 17:
+        description: This term was split out from primary visual cortex as many of the axioms and annotations were specific to primates or humans.
+        meaning: UBERON:8440010
+      Brodmann (1909) area 18:
+        description: 'UBERON region ''Brodmann (1909) area 18'' (UBERON:0006473). Synonyms: B09-18, B09-18, BA18.'
+        meaning: UBERON:0006473
+      Brodmann (1909) area 19:
+        description: Brodmann area 19, or BA19, is part of the occipital lobe cortex in the human brain. Along with area 18, it comprises the extrastriate (or peristriate) cortex. In normally-sighted humans, extrastriate cortex is a visual association area, with feature-extracting, shape recognition, attentional, and multimodal integrating functions. This area is also known as peristriate area 19, and it refers to a subdivision of the cytoarchitecturally defined occipital region of cerebral cortex. In the human it is located in parts of the lingual gyrus, the cuneus, the lateral occipital gyrus (H) and the superior occipital gyrus (H) of the occipital lobe where it is bounded approximately by the parieto-occipital sulcus. Cytoarchitecturally it is bounded on one side by the parastriate area 18 which it surrounds. Rostrally it is bounded by the angular area 39 (H) and the occipitotemporal area 37 (H) (Brodmann-1909).
+        meaning: UBERON:0013550
+      Brodmann (1909) area 2:
+        description: 'UBERON region ''Brodmann (1909) area 2'' (UBERON:0013533). Synonyms: B09-2, B09-2, BA2.'
+        meaning: UBERON:0013533
+      Brodmann (1909) area 20:
+        description: Brodmann area 20, or BA20, is part of the temporal cortex in the human brain. The region encompasses most of the ventral temporal cortex, a region believed to play a part in high-level visual processing and recognition memory. This area is also known as inferior temporal area 20, and it refers to a subdivision of the cytoarchitecturally defined temporal region of cerebral cortex. In the human it corresponds approximately to the inferior temporal gyrus. Cytoarchitecturally it is bounded medially by the ectorhinal area 36 (H), laterally by the middle temporal area 21, rostrally by the temporopolar area 38 (H) and caudally by the occipitotemporal area 37 (H) (Brodmann-1909).
+        meaning: UBERON:0013551
+      Brodmann (1909) area 21:
+        description: Brodmann area 21, or BA21, is part of the temporal cortex in the human brain. The region encompasses most of the lateral temporal cortex, a region believed to play a part in auditory processing and language. Language function is left lateralized in most individuals. BA21 is superior to BA20 and inferior to BA40 and BA41. This area is also known as middle temporal area 21. It is a subdivision of the cytoarchitecturally defined temporal region of cerebral cortex. In the human it corresponds approximately to the middle temporal gyrus. It is bounded rostrally by the temporopolar area 38 (H), ventrally by the inferior temporal area 20, caudally by the occipitotemporal area 37 (H), and dorsally by the superior temporal area 22 (Brodmann-1909). [WP,unvetted].
+        meaning: UBERON:0013552
+      Brodmann (1909) area 22:
+        description: Brodmann area 22 is one of Brodmann's cytologically defined regions of the brain. It is involved in auditory processing.
+        meaning: UBERON:0013553
+      Brodmann (1909) area 23:
+        description: 'The term area 23 of Brodmann-1909 refers to a subdivision of the cerebral cortex of the guenon defined on the basis of cytoarchitecture. Brodmann regarded it as topographically and cytoarchitecturally homologous to the combined ventral posterior cingulate area 23 and dorsal posterior cingulate area 31 of the human (Brodmann-1909). Distinctive Features (Brodmann-1905): the cortex is relatively thin; smaller cells predominate; the cell density of the multiform layer (VI) is great, producing a distinct boundary with the subcortical white matter; the internal granular layer (IV) is rather well developed; the internal pyramidal layer (V) contains a dense population of round, medium-sized ganglion cells concentrated at the border with layer IV; layers V and VI are narrow with a distinct mutual boundary.nn* Definition Source NeuroNames.'
+        meaning: UBERON:0013554
+      Brodmann (1909) area 24:
+        description: Missing definition for term UBERON:0006101. Please replace it using linked reference.
+        meaning: UBERON:0006101
+      Brodmann (1909) area 25:
+        description: Brodmann area 25 (BA25) is an area in the cerebral cortex of the brain and delineated based on its cytoarchitectonic characteristics. It is also called the subgenual area or area subgenualis. It is the 25th 'Brodmann area' defined by Korbinian Brodmann (thus its name). BA25 is located in the cingulate region as a narrow band in the caudal portion of the subcallosal area adjacent to the paraterminal gyrus. The posterior parolfactory sulcus separates the paraterminal gyrus from BA25. Rostrally it is bound by the prefrontal area 11 of Brodmann.
+        meaning: UBERON:0013556
+      Brodmann (1909) area 26:
+        description: 'UBERON region ''Brodmann (1909) area 26'' (UBERON:0004718). Synonyms: B09-26, B09-26, BA26.'
+        meaning: UBERON:0004718
+      Brodmann (1909) area 27:
+        description: Area 27 of Brodmann-1909 is a cytoarchitecturally defined cortical area that is a rostral part of the parahippocampal gyrus of the guenon (Brodmann-1909). It is commonly regarded as a synonym of presubiculum (Crosby-62). [WP,unvetted].
+        meaning: UBERON:0013558
+      Brodmann (1909) area 28:
+        description: 'UBERON region ''Brodmann (1909) area 28'' (UBERON:0013559). Synonyms: area 28 of Brodmann (Crosby), area 28 of Brodmann, B09-28.'
+        meaning: UBERON:0013559
+      Brodmann (1909) area 29:
+        description: Brodmann area 29, also known as granular retrolimbic area 29 or granular retrosplenial cortex, is a cytoarchitecturally defined portion of the retrosplenial region of the cerebral cortex. In the human it is a narrow band located in the isthmus of cingulate gyrus. Cytoarchitecturally it is bounded internally by the ectosplenial area 26 and externally by the agranular retrolimbic area 30 (Brodmann-1909).
+        meaning: UBERON:0004717
+      Brodmann (1909) area 3:
+        description: Missing definition for term UBERON:0006100. Please replace it using linked reference.
+        meaning: UBERON:0006100
+      Brodmann (1909) area 30:
+        description: Brodmann area 30, also known as agranular retrolimbic area 30, is a subdivision of the cytoarchitecturally defined retrosplenial region of the cerebral cortex. In the human it is located in the isthmus of cingulate gyrus. Cytoarchitecturally it is bounded internally by the granular retrolimbic area 29, dorsally by the ventral posterior cingulate area 23 and ventrolaterally by the ectorhinal area 36 (Brodmann-1909).
+        meaning: UBERON:0006474
+      Brodmann (1909) area 31:
+        description: Brodmann area 31, also known as dorsal posterior cingulate area 31, is a subdivision of the cytoarchitecturally defined cingulate region of the cerebral cortex. In the human it occupies portions of the posterior cingulate gyrus and medial aspect of the parietal lobe. Approximate boundaries are the cingulate sulcus dorsally and the parieto-occipital sulcus caudally. It partially surrounds the subparietal sulcus, the ventral continuation of the cingulate sulcus in the parietal lobe. Cytoarchitecturally it is bounded rostrally by the ventral anterior cingulate area 24, ventrally by the ventral posterior cingulate area 23, dorsally by the gigantopyramidal area 4 and preparietal area 5 and caudally by the superior parietal area 7 (H) (Brodmann-1909).
+        meaning: UBERON:0006475
+      Brodmann (1909) area 32:
+        description: The Brodmann area 32, also known in the human brain as the dorsal anterior cingulate area 32, refers to a subdivision of the cytoarchitecturally defined cingulate region of cerebral cortex. In the human it forms an outer arc around the anterior cingulate gyrus. The cingulate sulcus defines approximately its inner boundary and the superior rostral sulcus (H) its ventral boundary; rostrally it extends almost to the margin of the frontal lobe. Cytoarchitecturally it is bounded internally by the ventral anterior cingulate area 24, externally by medial margins of the agranular frontal area 6, intermediate frontal area 8, granular frontal area 9, frontopolar area 10, and prefrontal area 11-1909. (Brodmann19-09). Dorsal region of anterior cingulate gyrus is associated with rational thought processes, most notably active during the Stroop task.
+        meaning: UBERON:0013560
+      Brodmann (1909) area 33:
+        description: Brodmann area 33, also known as pregenual area 33, is a subdivision of the cytoarchitecturally defined cingulate region of cerebral cortex. It is a narrow band located in the anterior cingulate gyrus adjacent to the supracallosal gyrus in the depth of the callosal sulcus, near the genu of the corpus callosum. Cytoarchitecturally it is bounded by the ventral anterior cingulate area 24 and the supracallosal gyrus (Brodmann-1909).
+        meaning: UBERON:0006476
+      Brodmann (1909) area 34:
+        description: Brodmann area 34 is a part of the brain. It has been described as part of the entorhinal area. It has been described as part of the superior temporal gyrus.
+        meaning: UBERON:0006477
+      Brodmann (1909) area 35:
+        description: Brodmann area 35, together with Brodmann area 36, is most frequently referred to as perirhinal cortex.
+        meaning: UBERON:0006102
+      Brodmann (1909) area 36:
+        description: Ectorhinal area 36 is a subdivision of the cytoarchitecturally defined temporal region of cerebral cortex. With its medial boundary corresponding approximately to the rhinal sulcus it is located primarily in the fusiform gyrus. Cytoarchitecturally it is bounded laterally and caudally by the inferior temporal area 20, medially by the perirhinal area 35 and rostrally by the temporopolar area 38 (H) (Brodmann-1909). Together with Brodmann area 35, it comprises the perirhinal cortex.
+        meaning: UBERON:0006104
+      Brodmann (1909) area 37:
+        description: Brodmann area 37, or BA37, is part of the temporal cortex in the human brain. This area is known as occipitotemporal area 37 (H). It is a subdivision of the cytoarchitecturally defined temporal region of cerebral cortex. It is located primarily in the caudal portions of the fusiform gyrus and inferior temporal gyrus on the mediobasal and lateral surfaces at the caudal extreme of the temporal lobe. Cytoarchitecturally it is bounded caudally by the peristriate Brodmann area 19, rostrally by the inferior temporal area 20 and middle temporal area 21 and dorsally on the lateral aspect of the hemisphere by the angular area 39 (H) (Brodmann-1909).
+        meaning: UBERON:0006478
+      Brodmann (1909) area 38:
+        description: Brodmann area 38, also BA38 or temporopolar area 38 (H), is part of the temporal cortex in the human brain. BA 38 is at the anterior end of the temporal lobe, known as the temporal pole. BA38 is a subdivision of the cytoarchitecturally defined temporal region of cerebral cortex. It is located primarily in the most rostral portions of the superior temporal gyrus and the middle temporal gyrus. Cytoarchitecturally it is bounded caudally by the inferior temporal area 20, the middle temporal area 21, the superior temporal area 22 and the ectorhinal area 36 (Brodmann-1909). Cytoarchitectonic and chemoarchitectonic studies find that it contains at least seven subareas, one of which, TG, is unique to humans. 'The functional significance of this area TG is not known, but it may bind complex, highly processed perceptual inputs to visceral emotional responses.' This area is among the earliest affected by Alzheimer's disease and the earliest involved at the start of temporal lobe
+          seizures.
+        meaning: UBERON:0006479
+      Brodmann (1909) area 39:
+        description: 'UBERON region ''Brodmann (1909) area 39'' (UBERON:0006480). Synonyms: B09-39, B09-39, BA39.'
+        meaning: UBERON:0006480
+      Brodmann (1909) area 4:
+        description: 'The term area 4 of Brodmann-1909 refers to a cytoarchitecturally defined portion of the frontal lobe of the guenon. It is located predominantly in the precentral gyrus. Brodmann-1909 regarded it as topographically and cytoarchitecturally homologous to the human gigantopyramidal area 4 and noted that it occupies a much greater fraction of the frontal lobe in the monkey than in the human. Distinctive features (Brodmann-1905): the cortex is unusually thick; the layers are not distinct; the cells are relatively sparsely distributed; giant pyramidal (Betz) cells are present in the internal pyramidal layer (V); lack of an internal granular layer (IV) such that the boundary between the external pyramidal layer (III) and the internal pyramidal layer (V) is indistinct; lack of a distinct external granular layer (II); a gradual transition from the multiform layer (VI) to the subcortical white matter.'
+        meaning: UBERON:0013535
+      Brodmann (1909) area 40:
+        description: Brodmann area 40, or BA40, is part of the parietal cortex in the human brain. The inferior part of BA40 is in the area of the supramarginal gyrus, which lies at the posterior end of the lateral fissure, in the inferior lateral part of the parietal lobe. It is bounded approximately by the intraparietal sulcus, the inferior postcentral sulcus, the posterior subcentral sulcus and the lateral sulcus. Cytoarchitecturally it is bounded caudally by the angular area 39 (H), rostrally and dorsally by the caudal postcentral area 2, and ventrally by the subcentral area 43 and the superior temporal area 22 (Brodmann-1909). Cytoarchitectonically defined subregions of rostral BA40/the supramarginal gyrus are PF, PFcm, PFm, PFop, and PFt. Area PF is the homologue to macaque area PF, part of the mirror neuron system, and active in humans during imitation. The supramarginal gyrus part of Brodmann area 40 is the region in the inferior parietal lobe that is involved in reading both in
+          regards to meaning and phonology. [WP,unvetted].
+        meaning: UBERON:0013573
+      Brodmann (1909) area 43:
+        description: Brodmann area 43 is a subdivision of the cerebral cortex of the guenon defined on the basis of cytoarchitecture. It was described (but not labeled) on the map of cortical areas in Brodmann-1909, and it was regarded as cytoarchitecturally homologous to area 30 of Mauss in 1908 in the guenon and subcentral area 43 of the human (Brodmann-1909). The Vogts found no distinctive architectonic area of the corresponding location in the guenon (Vogts-1919).
+        meaning: UBERON:0013561
+      Brodmann (1909) area 44:
+        description: Broca's area is a region of the inferior frontal gyrus (in the dominant cerebral hemisphere, usually on the left side) that is composed of parts of Brodmanns' areas 44 and 45.
+        meaning: UBERON:0006481
+      Brodmann (1909) area 45:
+        description: Part of the cytoarchitecturally defined frontal region of cerebral cortex. In the human, it occupies the triangular part of the inferior frontal gyrus (human) and, surrounding the anterior horizontal limb of the lateral sulcus (human), a portion of the orbital part of the inferior frontal gyrus (human). Bounded caudally by the anterior ascending limb of the lateral sulcus (human), it borders on the insula in the depth of the lateral sulcus. Cytoarchitectonically it is bounded caudally by the opercular area 44, rostrodorsally by the area 46 of Brodmann (human) and ventrally by the area 47 of Brodmann (human) (Brodmann-1909) (Adapted from Brain Info).
+        meaning: UBERON:0006482
+      Brodmann (1909) area 46:
+        description: Brodmann area 46, or BA46, is part of the frontal cortex in the human brain. It is between BA10 and BA45. BA46 is known as middle frontal area 46. In the human it occupies approximately the middle third of the middle frontal gyrus and the most rostral portion of the inferior frontal gyrus. Brodmann area 46 roughly corresponds with the dorsolateral prefrontal cortex (DLPFC), although the borders of area 46 are based on cytoarchitecture rather than function. The DLPFC also encompasses part of granular frontal area 9, directly adjacent on the dorsal surface of the cortex. Cytoarchitecturally, BA46 is bounded dorsally by the granular frontal area 9, rostroventrally by the frontopolar area 10 and caudally by the triangular area 45 (Brodmann-1909). There is some discrepancy between the extent of BA8 (Brodmann-1905) and the same area as described by Walker (1940).
+        meaning: UBERON:0006483
+      Brodmann (1909) area 47:
+        description: Brodmann area 47, or BA47, is part of the frontal cortex in the human brain. Curving from the lateral surface of the frontal lobe into the ventral (orbital) frontal cortex. It is below areas BA10 and BA45, and beside BA11. This area is also known as orbital area 47. In the human, on the orbital surface it surrounds the caudal portion of the orbital sulcus (H) from which it extends laterally into the orbital part of inferior frontal gyrus (H). Cytoarchitectonically it is bounded caudally by the triangular area 45, medially by the prefrontal area 11 of Brodmann-1909, and rostrally by the frontopolar area 10 (Brodmann-1909). It incorporates the region that Brodmann identified as 'Area 12' in the monkey, and therefore, following the suggestion of Michael Petrides, some contemporary neuroscientists refer to the region as 'BA47/12. ' BA47 has been implicated in the processing of syntax in spoken and signed languages, and more recently in musical syntax.
+        meaning: UBERON:0006484
+      Brodmann (1909) area 48:
+        description: Retrosubicular area 48 is a subdivision of the cytoarchitecturally defined hippocampal region of the cerebral cortex. In the human it is located on the medial surface of the temporal lobe. Cytoarchitectually it is bounded rostrally by the perirhinal area 35 and medially by the presubiculum. While described by Brodmann (Brodmann-1909), it was not included in his areal maps of human cortex (Brodmann-1909; Brodmann-1910).
+        meaning: UBERON:0006485
+      Brodmann (1909) area 5:
+        description: Brodmann area 5 is one of Brodmann's cytologically defined regions of the brain. It is involved in somatosensory processing and association.
+        meaning: UBERON:0006471
+      Brodmann (1909) area 52:
+        description: Parainsular area 52 (H) is a subdivision of the cytoarchitecturally defined temporal region of cerebral cortex. It is located in the bank of the lateral sulcus on the dorsal surface of the temporal lobe. Its medial boundary corresponds approximately to the junction between the temporal lobe and the insula. Cytoarchitecturally it is bounded laterally by the anterior transverse temporal area 42 (H) (Brodmann-1909).
+        meaning: UBERON:0006486
+      Brodmann (1909) area 6:
+        description: Brodmann area 6, or BA6, is part of the frontal cortex in the human brain. Situated just anterior to the primary motor cortex, it is composed of the premotor cortex and, medially, the supplementary motor area, or SMA. This large area of the frontal cortex is believed to play a role in the planning of complex, coordinated movements. Brodmann area 6 is also called agranular frontal area 6 in humans because it lacks an internal granular cortical layer (layer IV). It is a subdivision of the cytoarchitecturally defined precentral region of cerebral cortex. In the human brain, it is located on the portions of the precentral gyrus that are not occupied by the gigantopyramidal area 4; furthermore, BA6 extends onto the caudal portions of the superior frontal and middle frontal gyri. It extends from the cingulate sulcus on the medial aspect of the hemisphere to the lateral sulcus on the lateral aspect. It is bounded rostrally by the granular frontal region and caudally by the
+          gigantopyramidal area 4 (Brodmann, 1909).
+        meaning: UBERON:0006472
+      Brodmann (1909) area 7:
+        description: Brodmann area 7 is one of Brodmann's cytologically defined regions of the brain. It is involved in locating objects in space. It serves as a point of convergence between vision and proprioception to determine where objects are in relation to parts of the body.
+        meaning: UBERON:0013538
+      Brodmann (1909) area 8:
+        description: Brodmann area 8 is one of Brodmann's cytologically defined regions of the brain. It is involved in planning complex movements.
+        meaning: UBERON:0013539
+      Brodmann (1909) area 8a:
+        description: 'UBERON region ''Brodmann (1909) area 8a'' (UBERON:0013562). Synonyms: Brodmann area 8a, B09-8a, B09-8a.'
+        meaning: UBERON:0013562
+      Brodmann (1909) area 9:
+        description: Brodmann area 9, or BA9, refers to a cytoarchitecturally defined portion of the frontal cortex in the brain of humans and other primates. It contributes to the dorsolateral and medial prefrontal cortex and plays a role in executive functions such as working memory, planning, inhibition, decision-making, and reasoning. Its cytoarchitecture is referred to as granular due to the concentration of granule cells in layer IV. Its internal pyramidal layer (V) is divisible into two sublayers, an outer layer 5a of densely distributed medium-size ganglion cells that partially merges with layer IV, and an inner, clearer, cell-poor layer 5b; the pyramidal cells of sublayer 3b of the external pyramidal layer (III) are smaller and sparser in distribution; the external granular layer (II) is narrow, with small numbers of sparsely distributed granule cells.
+        meaning: UBERON:0013540
+      Brodmann area:
+        description: 'A segmentation of the cerebral cortex on the basis of cytoarchitecture as described in Brodmann-1905, Brodmann-1909 and Brodmann-10. Maps for several species were presented. NeuroNames includes only areas in the human and in Old World monkeys. Of the latter, Brodmann studied representatives of several species including guenons (one Cercopithecus mona, one Cercocebus torquatus, and one Cercopithecus otherwise unspecified), which are all closely related African species, and one macaque (Macaca mulatta) an Asian species (Brodmann-1905). The legend to the summary map in Brodmann-1909 ascribes the areas simply to Cercopithecus. Brodmann referenced the areas by name and number. The same area number in humans and monkeys did not necessarily refer to topologically or cytoarchitecturally homologous structures. In NeuroNames the standard term for human areas consists of the English translation of Brodmann''s Latin name followed by the number he assigned, e.g., agranular frontal
+          area 6; the standard terms for monkey areas are in the format: area 6 of Brodmann-1909. He mapped a portion of areas limited to the banks of sulci, e.g., area 3 of Brodmann-1909 (Brodmann-1909) onto the adjacent, visible surface. This accounts for the fact that some areas appear larger on his surface map than on maps of other authors, e.g., area 3 of Vogts-1919. (Adapted from NeuroNames).'
+        meaning: UBERON:0013529
+      C lamina of the lateral geniculate nucleus (sensu Mustela putorius furo):
+        description: The most lateral laminae of the LGN of the ferret. The C laminae includes the C lamina, which is the innermost layer, followed by C1, C2, and C3 being the outermost lamina.
+        meaning: UBERON:8440069
+      CA1 field of hippocampus:
+        description: Part of hippocampus proper bounded by CA2 and the subiculum, characterized by pyramidal neurons that receive projections from pyramidal neurons of CA3 via the Schaffer collaterals.
+        meaning: UBERON:0003881
+      CA2 field of hippocampus:
+        description: Part of hippocampus proper bounded by areas CA3 and CA1, characterized by a narrow layer of large pyramidal cells, similar in size to CA3 pyramidal cells, but which lack the mossy fiber input from the dentate gyrus (adapted from Paxinos, G. The rat central nervous system, 2nd ed, Academic Press, San Diego, 1995, pg. 460).
+        meaning: UBERON:0003882
+      CA3 field of hippocampus:
+        description: Part of hippocampus proper bounded by the hilus of the dentate gyrus and area CA2, characterized by large pyramidal cells and a dense projection from dentate gyrus granule cell mossy fibers.
+        meaning: UBERON:0003883
+      CA4 field of hippocampus:
+        description: The last of four regions in the cornu ammonis of the hippocampus and is also part of the hilus of the dentate gyrus. This area contains mostly mossy cells that receive inputs from the dentate gyrus and pyramidal cells in the CA3 region and also projects back to the dentate gyrus.
+        meaning: UBERON:0003884
+      calcar avis of the lateral ventricle:
+        description: On the medial wall of the posterior cornu of the lateral ventricle is a longitudinal eminence, the calcar avis (hippocampus minor), which is an involution of the ventricular wall produced by the calcarine fissure. It is sometimes visible on ultrasonogram.
+        meaning: UBERON:0035970
+      caudal anterior cingulate cortex:
+        description: Component of the cingulate cortex. The rostral boundary was the first appearance of the genu of the corpus callosum whereas the caudal boundary was established as the first appearance of the mammillary bodies. The medial boundary was the medial aspect of the cortex. The supero-lateral boundary was the superior frontal gyrus whereas the infero-lateral boundary was the corpus callosum (Christine Fennema-Notestine).
+        meaning: UBERON:0028715
+      caudal CA1:
+        description: 'UBERON region ''caudal CA1'' (UBERON:0034780). Synonyms: CA1C.'
+        meaning: UBERON:0034780
+      caudal CA2:
+        description: 'UBERON region ''caudal CA2'' (UBERON:0034781). Synonyms: CA2C.'
+        meaning: UBERON:0034781
+      caudal CA3:
+        description: 'UBERON region ''caudal CA3'' (UBERON:0034782). Synonyms: CA3C.'
+        meaning: UBERON:0034782
+      caudal tuberculum:
+        description: 'UBERON region ''caudal tuberculum'' (UBERON:2000633). Synonyms: posterior tubercle, posterior tuberculum.'
+        meaning: UBERON:2000633
+      caudal zone of median tuberal portion of hypothalamus:
+        description: UBERON region 'caudal zone of median tuberal portion of hypothalamus' (UBERON:2000634).
+        meaning: UBERON:2000634
+      central lobule:
+        description: The central lobule is a small square lobule, situated in the anterior cerebellar notch. It overlaps the lingula, from which it is separated by the precentral fissure; laterally, it extends along the upper and anterior part of each hemisphere, where it forms a wing-like prolongation, the ala lobuli centralis. [WP,unvetted].
+        meaning: UBERON:0003021
+      central pretectum:
+        description: UBERON region 'central pretectum' (UBERON:2000183).
+        meaning: UBERON:2000183
+      cerebellar hemisphere:
+        description: A paired regions of the cerebellum that lie outside and lateral to the central vermis[MP]. The cerebellum consists of three parts, a median and two lateral, which are continuous with each other, and are substantially the same in structure. The median portion is constricted, and is called the vermis, from its annulated appearance which it owes to the transverse ridges and furrows upon it; the lateral expanded portions are named the hemispheres. The lateral hemisphere is considered the portion of the cerebellum to develop most recently. [WP,unvetted].
+        meaning: UBERON:0002245
+      cerebellar peduncular complex:
+        description: A composite structure of the brain stem, which is subdivided into the superior cerebellar peduncle of pons, the decussation of superior cerebellar peduncle and the superior cerebellar peduncle of midbrain (MM)[NIF, based on NN].
+        meaning: UBERON:0002474
+      cerebellar vermis:
+        description: A subregion of the cerebellar cortex, consisting of the most medial zone of the cerebellar cortex, stradding the midline. May be continuous with the lateral cerebellar hemispheres in some areas of the cerebellum, e.g., dorsally, or separated by deeper fissures in others (e.g., ventrally).
+        meaning: UBERON:0004720
+      cerebellopontine angle:
+        description: Junction between the cerebellum and the pons.
+        meaning: UBERON:0014908
+      cerebellum:
+        description: Part of the metencephalon that lies in the posterior cranial fossa behind the brain stem. It is concerned with the coordination of movement[MESH]. A large dorsally projecting part of the brain concerned especially with the coordination of muscles and the maintenance of bodily equilibrium, situated between the brain stem and the back of the cerebrum , and formed in humans of two lateral lobes and a median lobe[BTO]. Brain structure derived from the anterior hindbrain, and perhaps including posterior midbrain. The cerebellum plays a role in somatic motor function, the control of muscle tone, and balance[ZFA].
+        meaning: UBERON:0002037
+      cerebellum anterior vermis:
+        description: The anterior portion of the narrow middle zone between the two hemispheres of the cerebellum that is located anterior to the primary fissure.
+        meaning: UBERON:0003941
+      cerebellum hemisphere lobule:
+        description: The region of a cerebellar lobule that resides in either of the lateral sections of the cerebellum outside the vermis; in mammals, the vermis portion of the cerebellum has a foliation pattern along the AP axis that is distinct from the lateral cerebellar hemispheres.
+        meaning: UBERON:0004003
+      cerebellum hemispheric lobule II:
+        description: 'UBERON region ''cerebellum hemispheric lobule II'' (UBERON:0023998). Synonyms: alar central lobule, central lobule (hII), hemispheric lobule ii.'
+        meaning: UBERON:0023998
+      cerebellum hemispheric lobule III:
+        description: 'UBERON region ''cerebellum hemispheric lobule III'' (UBERON:0023999). Synonyms: alar central lobule, central lobule (hIII), hemispheric lobule III.'
+        meaning: UBERON:0023999
+      cerebellum hemispheric lobule IV:
+        description: 'UBERON region ''cerebellum hemispheric lobule IV'' (UBERON:0024000). Synonyms: anterior quadrangular lobule, culmen lobule (hIV), hemispheric lobule IV.'
+        meaning: UBERON:0024000
+      cerebellum hemispheric lobule V:
+        description: 'UBERON region ''cerebellum hemispheric lobule V'' (UBERON:0024001). Synonyms: anterior quadrangular lobule, culmen lobule (hV), hemispheric lobule V.'
+        meaning: UBERON:0024001
+      cerebellum hemispheric lobule VII:
+        description: 'UBERON region ''cerebellum hemispheric lobule VII'' (UBERON:0024003). Synonyms: hemispheric lobule VII.'
+        meaning: UBERON:0024003
+      cerebellum hemispheric lobule X:
+        description: 'UBERON region ''cerebellum hemispheric lobule X'' (UBERON:0024009). Synonyms: flocculus, hemispheric lobule X.'
+        meaning: UBERON:0024009
+      cerebellum intermediate zone:
+        description: The paired regions of the cerebellar hemisphere that lie adjacent to the vermis and are between the vermis and lateral regions of the hemispheres; it receives input from the corticopontocerebellar fibers that originate from the motor cortex, and also receives sensory feedback from the muscles; these signals are integrated by this region, to coordinate muscle activity with motor inputs.
+        meaning: UBERON:0004006
+      cerebellum lobe:
+        description: 'A major subdivision of the cerebellum: anterior, posterior and flocculonodular.'
+        meaning: UBERON:0005293
+      cerebellum lobule:
+        description: One of the the ten gyri of the cerebellar cortex.
+        meaning: UBERON:0004004
+      cerebellum posterior vermis:
+        description: The posterior portion of the narrow middle zone between the two hemispheres of the cerebellum that is located posterior to the primary fissure.
+        meaning: UBERON:0004009
+      cerebellum vermis culmen:
+        description: The culmen is the portion of the anterior vermis adjacent to the primary fissure of cerebellum. The culmen and the anterior parts of the quadrangular lobules form the lobus culminis[WP].
+        meaning: UBERON:0007763
+      cerebellum vermis lobule:
+        description: The region of a cerebellar lobule that resides in the central section of the cerebellum between the two hemispheres.
+        meaning: UBERON:0004070
+      cerebellum vermis lobule I:
+        description: Missing definition for term UBERON:0004074. Please replace it using linked reference.
+        meaning: UBERON:0004074
+      cerebellum vermis lobule II:
+        description: Missing definition for term UBERON:0004075. Please replace it using linked reference.
+        meaning: UBERON:0004075
+      cerebellum vermis lobule III:
+        description: Missing definition for term UBERON:0004076. Please replace it using linked reference.
+        meaning: UBERON:0004076
+      cerebellum vermis lobule IV:
+        description: 'UBERON region ''cerebellum vermis lobule IV'' (UBERON:0004077). Synonyms: culmen of cerebellum, lobule IV of cerebellum vermis, neuraxis culmen.'
+        meaning: UBERON:0004077
+      cerebellum vermis lobule IX:
+        description: The uvula is the second largest lobule, following the culmen. It pertains to the paleocerebellum and is separated from the nodule by the posterolateral fissure.
+        meaning: UBERON:0004078
+      cerebellum vermis lobule V:
+        description: Missing definition for term UBERON:0004079. Please replace it using linked reference.
+        meaning: UBERON:0004079
+      cerebellum vermis lobule VI:
+        description: Missing definition for term UBERON:0004080. Please replace it using linked reference.
+        meaning: UBERON:0004080
+      cerebellum vermis lobule VII:
+        description: 'UBERON region ''cerebellum vermis lobule VII'' (UBERON:0004081). Synonyms: lobule VII of cerebellum vermis, folium-tuber vermis (VII), lobule VIIA of vermis.'
+        meaning: UBERON:0004081
+      cerebellum vermis lobule VIIA:
+        description: The folium vermis is a short, narrow, concealed band at the posterior extremity of the vermis, consisting apparently of a single folium, but in reality marked on its upper and under surfaces by secondary fissures. Laterally, it expands in either hemisphere into a considerable lobule, the superior semilunar lobule (lobulus semilunaris superior; postero-superior lobules), which occupies the posterior third of the upper surface of the hemisphere, and is bounded below by the horizontal sulcus. The superior semilunar lobules and the folium vermis form the lobus semilunaris.
+        meaning: UBERON:0005345
+      cerebellum vermis lobule VIIAf:
+        description: 'UBERON region ''cerebellum vermis lobule VIIAf'' (UBERON:0036044). Synonyms: CbVIIa1, VIIAf, lobule VIIAf/crus I (folium and superior semilunar lobule).'
+        meaning: UBERON:0036044
+      cerebellum vermis lobule VIIAt:
+        description: 'UBERON region ''cerebellum vermis lobule VIIAt'' (UBERON:0036065). Synonyms: CbVIIa2, VIIAt, lobule VIIAt/crus II (tuber and inferior semilunar lobule).'
+        meaning: UBERON:0036065
+      cerebellum vermis lobule VIIB:
+        description: Missing definition for term UBERON:0005346. Please replace it using linked reference.
+        meaning: UBERON:0005346
+      cerebellum vermis lobule VIII:
+        description: Missing definition for term UBERON:0004082. Please replace it using linked reference.
+        meaning: UBERON:0004082
+      cerebellum vermis lobule X:
+        description: Missing definition for term UBERON:0004083. Please replace it using linked reference.
+        meaning: UBERON:0004083
+      cerebrocerebellum:
+        description: The part of the cerebellar cortex that receives input from the cerebral cortex via axons from the pontine relay nuclei.
+        meaning: UBERON:0014644
+      chemoarchitectural part of brain:
+        description: Regional part of an anatomical region that is revealed by the use of a stain that reveals chemoarchitecture.
+        meaning: UBERON:0024090
+      chemoarchitectural part of striatum:
+        description: 'UBERON region ''chemoarchitectural part of striatum'' (UBERON:0025736). Synonyms: chemoarchitectural part of neostriatum.'
+        meaning: UBERON:0025736
+      cingulate cortex:
+        description: The cingulate cortex is a part of the brain situated in the medial aspect of the cortex. It is extended from the corpus callosum below to the cingulate sulcus above, at least anteriorly. [WP,unvetted].
+        meaning: UBERON:0003027
+      cingulate visual area (sensu Mustela putorius furo):
+        description: A visual area of the ferret located in the fundus of the splenial sulcus medial to SVA.
+        meaning: UBERON:8440066
+      circumventricular organ:
+        description: Any of any of the secretory or sensory organs located in the brain region around or in relation to the ventricular system that are characterized by extensive vasculature and a lack of a normal blood brain barrier (BBB) and allow for the linkage between the central nervous system and peripheral blood flow.
+        meaning: UBERON:0005408
+      commissural ganglion (sensu Cancer borealis):
+        description: Contains motor fibers that innervate the esophagus. Stimulating the pyloric suppressor neuron alters both pyloric and gastric rhythms but also elicits activity in a third oscillatory circuit located in the commissural ganglia called the esophageal rhythm.
+        meaning: UBERON:8910021
+      copula pyramidis:
+        description: UBERON region 'copula pyramidis' (UBERON:0005347).
+        meaning: UBERON:0005347
+      core of nucleus accumbens:
+        description: 'UBERON region ''core of nucleus accumbens'' (UBERON:0012170). Synonyms: accumbens nucleus core, accumbens nucleus, core, core of nucleus accumbens.'
+        meaning: UBERON:0012170
+      corpus cerebelli:
+        description: 'UBERON region ''corpus cerebelli'' (UBERON:2000188). Synonyms: cerebellar corpus, corpus cerebellum.'
+        meaning: UBERON:2000188
+      corpus striatum:
+        description: '* According to the 1917 version of Gray''s Anatomy, it is the combination of the lentiform nucleus (also known as the lenticular nucleus) and the caudate nucleus * According to BrainInfo it is a part of the basal ganglia comprising the globus pallidus and striatum'
+        meaning: UBERON:0000369
+      cortical visual area:
+        description: The part of the cortex that is responsible for processing visual information.
+        meaning: UBERON:8440011
+      cytoarchitectural part of dentate gyrus:
+        description: 'UBERON region ''cytoarchitectural part of dentate gyrus'' (UBERON:0023564). Synonyms: cytoarchitectural part of dentate gyrus.'
+        meaning: UBERON:0023564
+      cytoarchitecture of entorhinal cortex:
+        description: 'UBERON region ''cytoarchitecture of entorhinal cortex'' (UBERON:0030649). Synonyms: cytoarchitecture of entorhinal cortex.'
+        meaning: UBERON:0030649
+      dentate gyrus of hippocampal formation:
+        description: BTO says dentate gyrus = fascia dentata + hilus. Note that GO classifies dentate gyrus development under hippocampus development
+        meaning: UBERON:0001885
+      diencephalon:
+        description: The division of the forebrain that develops from the foremost primary cerebral vesicle.
+        meaning: UBERON:0001894
+      dopaminergic cell groups:
+        description: Collections of neurons in the central nervous system that have been demonstrated by histochemical fluorescence to contain the neurotransmitter dopamine ( Fuxe-1970 ).
+        meaning: UBERON:0035999
+      dorsal auditory area:
+        description: 'UBERON region ''dorsal auditory area'' (UBERON:0035885). Synonyms: AUDd.'
+        meaning: UBERON:0035885
+      dorsal auditory area, layer 4:
+        description: 'UBERON region ''dorsal auditory area, layer 4'' (UBERON:0035917). Synonyms: AUDd4.'
+        meaning: UBERON:0035917
+      dorsal cap of Kooy:
+        description: 'UBERON region ''dorsal cap of Kooy'' (UBERON:0014286). Synonyms: dorsal cap of kooy.'
+        meaning: UBERON:0014286
+      dorsal gastric nerve (sensu Cancer borealis):
+        description: Nerve carrying dorsal gastric (DG) neurons which control the medial tooth movements in crustaceans.
+        meaning: UBERON:8910011
+      dorsal hypothalamic area:
+        description: ).
+        meaning: UBERON:0002954
+      dorsal lateral suprasylvian visual cortical area (sensu Mustela putorius furo):
+        description: A visual area in the ferret located in the lateral bank of the suprasylvian sulcus anterior to VLS and posterior to PLLS.
+        meaning: UBERON:8440060
+      dorsal pallium:
+        description: Subdivision of pallium that is located dorsally.
+        meaning: UBERON:0014740
+      dorsal peduncular area:
+        description: A cytoarchitectonic area on the medial surface of the cerebral hemisphere rostral to the septum, ventral to the infralimbic area and dorsal to the tenia tecta in the mouse and rat.
+        meaning: UBERON:8440040
+      dorsal periventricular hypothalamus:
+        description: UBERON region 'dorsal periventricular hypothalamus' (UBERON:2000199).
+        meaning: UBERON:2000199
+      dorsal plus ventral thalamus:
+        description: Subcortical brain region consisting of paired gray matter bodies in the dorsal diencephalon and forming part of the lateral wall of the third ventricle of the brain. The thalamus represents the major portion of the diencephalon and is commonly divided into cellular aggregates known as nuclear groups.(MeSH). The dorsal topographic division of the interbrain. The macrodissected adult human thalamus was clearly illustrated by Vesalius in 1543 and the term as defined here was introduced by His in 1893. It includes the traditional epithalamus, dorsal thalamus, and ventral thalamus of Herrick (1910, pp. 494, 498). Also see Kuhlenbeck (1927, Ch. 9) and Jones (1985, p. 87).
+        meaning: UBERON:0001897
+      dorsal tegmental nucleus pars dorsalis:
+        description: Part of dorsal tegmental nucleus characterized by round, small cells that are lightly stained in Nissl preparations.
+        meaning: UBERON:0014568
+      dorsal tegmental nucleus pars ventralis:
+        description: Cytoarchitectural part of the dorsal tegmental nucleus based on cell size. The pars ventralis is characterized by medium sized oval or triangular cells that stain darkly in NIssl stains.
+        meaning: UBERON:0014569
+      dorsal thalamus:
+        description: 'UBERON region ''dorsal thalamus'' (UBERON:0004703). Synonyms: dorsal thalamus (Anthoney), dorsal thalamus, dorsal tier of thalamus.'
+        meaning: UBERON:0004703
+      dorsal ventricular ridge of pallium:
+        description: A large expansion of the lateral wall of the telencephalon, located in the pallium. Found in reptiles and birds.
+        meaning: UBERON:0014733
+      dorsal zone of median tuberal portion of hypothalamus:
+        description: UBERON region 'dorsal zone of median tuberal portion of hypothalamus' (UBERON:2000347).
+        meaning: UBERON:2000347
+      dorsolateral part of supraoptic nucleus:
+        description: 'UBERON region ''dorsolateral part of supraoptic nucleus'' (UBERON:0035928). Synonyms: dorsolateral part of the supraoptic nucleus, pars dorsolateralis nuclei supraoptici, supraoptic nucleus proper.'
+        meaning: UBERON:0035928
+      dorsolateral prefrontal cortex:
+        description: The dorsolateral prefrontal cortex (DL-PFC or DLPFC), according to a more restricted definition, is roughly equivalent to Brodmann areas 9 and 46.[1] According to a broader definition DL-PFC consists of the lateral portions of Brodmann areas 9 - 12, of areas 45, 46, and the superior part of area 47.[2] These regions mainly receive their blood supply from the middle cerebral artery. With respect to neurotransmitter systems, there is evidence that dopamine plays a particularly important role in DL-PFC.[2]DL-PFC is connected to the orbitofrontal cortex, and to a variety of brain areas, which include the thalamus, parts of the basal ganglia (the dorsal caudate nucleus), the hippocampus, and primary and secondary association areas of neocortex, including posterior temporal, parietal, and occipital areas.
+        meaning: UBERON:0009834
+      eminentia granularis:
+        description: Definition based on Albert,2001 [Albert JS. 2001. Species Diversity and Phylogenetic systematics of American Knifefishes (Gymnotiformes, Teleostei). Miscellaneous Publications, Museum of Zoology, University of Michigan no. 190:140 pages.]
+        meaning: UBERON:2002106
+      entopallium:
+        description: The major telecephalic thalamorecipient zone of the tectofugal visual system in Aves.
+        meaning: UBERON:0014759
+      epithalamus:
+        description: Most dorsal part of the thalamus, comprising the pineal gland and habenular nuclei in most vertebrates. In a few vertebrates, it also includes the parietal eye. (Butler and Hodos, Comparative Vertebrate Neuroanatomy, 2nd ed, 2005, pg. 345-346.
+        meaning: UBERON:0001899
+      esophageal ganglion (sensu Cancer borealis):
+        description: Neurons with cell bodies in the esophageal ganglion turn on the gastric mill rhythm and strongly affects the pyloric rhythm.
+        meaning: UBERON:8910020
+      esophageal nerve (sensu Cancer borealis):
+        description: innervates the foregut and midgut
+        meaning: UBERON:8910019
+      extrapyramidal tract system:
+        description: A neural network located in the brain that is part of the motor system involved in the coordination of movement that is distinct from the pyramidal tract.
+        meaning: UBERON:0035803
+      flocculonodular lobe:
+        description: The flocculonodular lobe is a lobe of the cerebellum consisting of the nodule and the flocculus. It is closely associated with the vestibulocerebellum. [WP,unvetted].
+        meaning: UBERON:0003012
+      flocculonodular lobe, hemisphere portion:
+        description: 'UBERON region ''flocculonodular lobe, hemisphere portion'' (UBERON:0027331). Synonyms: hemispheric part of the flocculonodular lobe of the cerebellum.'
+        meaning: UBERON:0027331
+      flocculus:
+        description: The small lobe of the cerebellum at the posterior border of the middle cerebellar peduncle anterior to the biventer lobule that receives input from the inferior and medial vestibular nuclei and sends fibers back to the vestibular nuclei, and processes and integrates these signals to allow for the constant maintenance of balance.
+        meaning: UBERON:0001063
+      floor plate of diencephalon:
+        description: A floor plate that is part of a diencephalon [Automatically generated definition].
+        meaning: UBERON:0003309
+      floor plate of medulla oblongata:
+        description: A floor plate that is part of a medulla oblongata [Automatically generated definition].
+        meaning: UBERON:0003311
+      floor plate of metencephalon:
+        description: A floor plate that is part of a metencephalon [Automatically generated definition].
+        meaning: UBERON:0003310
+      floor plate of midbrain:
+        description: A floor plate that is part of a midbrain [Automatically generated definition].
+        meaning: UBERON:0003307
+      floor plate of telencephalon:
+        description: A floor plate that is part of a telencephalon [Automatically generated definition].
+        meaning: UBERON:0003308
+      forebrain:
+        description: The most anterior region of the brain including both the telencephalon and diencephalon.
+        meaning: UBERON:0001890
+      fourth visual cortical area (sensu Mustela putorius furo):
+        description: A visual area in the ferret that is caudal to the suprasylvian visual areas and rostral to area 19.
+        meaning: UBERON:8440047
+      frontal operculum:
+        description: Portion of frontal lobe that overlaps the insular cortex (adapted from Wikipedia).
+        meaning: UBERON:0002947
+      frontal pole:
+        description: Component of the frontal lobe. The rostral and caudal boundaries of the frontal pole are the superior frontal gyrus and the rostral division of the middle frontal gyrus respectively (Christine Fennama-Notestine).
+        meaning: UBERON:0002795
+      functional part of brain:
+        description: A brain region defined by functional criteria, e.g. auditory cortex, rather than by structural or histological criteria.
+        meaning: UBERON:0035014
+      fundus striati:
+        description: The ventral portion of the dorsal striatum, linking the caudate nucleus and the putamen anteriorly (adapted from Wikipedia).
+        meaning: UBERON:0014605
+      gastropyloric nerve (sensu Cancer borealis):
+        description: Consists of gastropyloric receptor (GPR) neurons, which are stretch receptors that innervate stomach muscles in crustaceans.
+        meaning: UBERON:8910012
+      genu of corpus callosum:
+        description: Part of corpus callosum comprising the 'kneelike' anterior bend (adapted from Nolte, The Human Brain, 6th ed., 2009 pg 664).
+        meaning: UBERON:0015599
+      glossopharyngeal lobe:
+        description: UBERON region 'glossopharyngeal lobe' (UBERON:2000517).
+        meaning: UBERON:2000517
+      granular eminence:
+        description: UBERON region 'granular eminence' (UBERON:2000212).
+        meaning: UBERON:2000212
+      granular insular cortex:
+        description: Granular region of the insular cortex.
+        meaning: UBERON:0034892
+      gross anatomical parts of the cerebellum:
+        description: 'UBERON region ''gross anatomical parts of the cerebellum'' (UBERON:0023836). Synonyms: gross anatomical parts of the cerebellum.'
+        meaning: UBERON:0023836
+      gustatory cortex:
+        description: The part of the cerebral cortex that is responsible for the perception of taste.
+        meaning: UBERON:8440075
+      habenula:
+        description: A segment of the epithalamus that has as its parts the habenular nuclei and the habenular commissure[FMA,modified].
+        meaning: UBERON:0001904
+      habenular trigone:
+        description: superclass in BTO is thalamic nucleus, not present in most ontologies
+        meaning: UBERON:0000445
+      Hadjikhani et al. (1998) visuotopic area V1d:
+        description: 'UBERON region ''Hadjikhani et al. (1998) visuotopic area V1d'' (UBERON:0028398). Synonyms: Hadjikhani et al. (1998) visuotopic area v1d.'
+        meaning: UBERON:0028398
+      Hadjikhani et al. (1998) visuotopic area V1v:
+        description: 'UBERON region ''Hadjikhani et al. (1998) visuotopic area V1v'' (UBERON:0028399). Synonyms: Hadjikhani et al. (1998) visuotopic area v1v.'
+        meaning: UBERON:0028399
+      Hadjikhani et al. (1998) visuotopic area V2d:
+        description: 'UBERON region ''Hadjikhani et al. (1998) visuotopic area V2d'' (UBERON:0006487). Synonyms: Hadjikhani et al. (1998) visuotopic area v2d, V2d.'
+        meaning: UBERON:0006487
+      Hadjikhani et al. (1998) visuotopic area V2v:
+        description: 'UBERON region ''Hadjikhani et al. (1998) visuotopic area V2v'' (UBERON:0028401). Synonyms: Hadjikhani et al. (1998) visuotopic area v2v.'
+        meaning: UBERON:0028401
+      Hadjikhani et al. (1998) visuotopic area V3:
+        description: 'UBERON region ''Hadjikhani et al. (1998) visuotopic area V3'' (UBERON:0028402). Synonyms: Hadjikhani et al. (1998) visuotopic area v3.'
+        meaning: UBERON:0028402
+      Hadjikhani et al. (1998) visuotopic area V3A:
+        description: 'UBERON region ''Hadjikhani et al. (1998) visuotopic area V3A'' (UBERON:0028403). Synonyms: Hadjikhani et al. (1998) visuotopic area v3a.'
+        meaning: UBERON:0028403
+      Hadjikhani et al. (1998) visuotopic area V4v:
+        description: 'UBERON region ''Hadjikhani et al. (1998) visuotopic area V4v'' (UBERON:0028405). Synonyms: Hadjikhani et al. (1998) visuotopic area v4v.'
+        meaning: UBERON:0028405
+      Hadjikhani et al. (1998) visuotopic area V8:
+        description: 'UBERON region ''Hadjikhani et al. (1998) visuotopic area V8'' (UBERON:0028406). Synonyms: Hadjikhani et al. (1998) visuotopic area v8.'
+        meaning: UBERON:0028406
+      Hadjikhani et al. (1998) visuotopic area VP:
+        description: 'UBERON region ''Hadjikhani et al. (1998) visuotopic area VP'' (UBERON:0028404). Synonyms: Hadjikhani et al. (1998) visuotopic area vp.'
+        meaning: UBERON:0028404
+      Hadjikhani et al. (1998) visuotopic partition scheme region:
+        description: 'UBERON region ''Hadjikhani et al. (1998) visuotopic partition scheme region'' (UBERON:0026765). Synonyms: Hadjikhani et al. (1998) visuotopic partition scheme region, Hadjikhani visuotopic areas, Hadjikhani visuotopic parcellation scheme.'
+        meaning: UBERON:0026765
+      hemisphere part of cerebellar anterior lobe:
+        description: A multi-tissue structure that is part of a anterior lobe of cerebellum and is part of a cerebellar hemisphere.
+        meaning: UBERON:0014647
+      hemisphere part of cerebellar posterior lobe:
+        description: A multi-tissue structure that is part of a cerebellar hemisphere and is part of a posterior lobe of cerebellum.
+        meaning: UBERON:0014648
+      hemispheric lobule VIII:
+        description: The biventer lobule (or biventral lobule) is triangular in shape; its apex points backward, and is joined by the gray band to the pyramid. The lateral border is separated from the inferior semilunar lobule by the postpyramidal fissure. The base is directed forward, and is on a line with the anterior border of the tonsil, and is separated from the flocculus by the postnodular fissure.
+        meaning: UBERON:0006121
+      hindbrain:
+        description: 'The most posterior of the three principal regions of the brain. In mammals and birds the hindbrain is divided into a rostral metencephalon and a caudal myelencephalon. In zebrafish, with the exception of the cerebellum, the ventral remainder of the metencephalon can be separated only arbitrarily from the more caudal myelencephalic portion of the medulla oblongata (From: Neuroanatomy of the Zebrafish Brain)[ZFA]. Organ component of neuraxis that has as its parts the pons, cerebellum and medulla oblongata[FMA].'
+        meaning: UBERON:0002028
+      hippocampal field:
+        description: A part or parts of the hippocampus that have a particular function.
+        meaning: UBERON:0003876
+      hippocampal formation:
+        description: Hippocampus (proper) plus dentate gyrus and subiculum[definition derived from NIF comments and ontology alignment].
+        meaning: UBERON:0002421
+      hippocampal formation of GP94:
+        description: "The combined region of Ammon\xD5s horn, subicular complex and dentate gyrus; only fields CA1-CA3 of the hippocampus were considered to be part of the HF, field CA4 being included in the hilus of the dentate gyrus[1]."
+        meaning: UBERON:0023862
+      horizontal limb of the diagonal band:
+        description: 'UBERON region ''horizontal limb of the diagonal band'' (UBERON:0006123). Synonyms: crus horizontale striae diagonalis, diagonal band horizontal limb, hDBB.'
+        meaning: UBERON:0006123
+      hyperpallium:
+        description: A pallial structure unique to avians.
+        meaning: UBERON:0007347
+      hyperpallium apicale:
+        description: Missing definition for term UBERON:0014757. Please replace it using linked reference.
+        meaning: UBERON:0014757
+      hypothalamus:
+        description: A specialized brain region of the ventral diencephalon arising near the end of the segmentation period; the embryonic hypothalamic region will give rise to the posterior pituitary gland as well as a number of brain nuclei. [ZFA]. One of the most important functions of the hypothalamus is to link the nervous system to the endocrine system via the pituitary gland (hypophysis).[Wikipedia].
+        meaning: UBERON:0001898
+      inferior colliculus:
+        description: Part of the midbrain tectum, consisting of paired predominantly gray matter elevations on the dorsal aspect of the midbrain, located caudal to the superior colliculus, dorsal to the periaqueductal gray of the cerebral aqueduct and rostral to the cerebellum. According to Neuronames, the inferior colliculus comprises the central, pericentral and external nucleus and two predominantly white matter structures, the brachium of the inferior colliculus and the commissure of the inferior colliculus (MM).
+        meaning: UBERON:0001946
+      inferior esophageal nerve (sensu Cancer borealis):
+        description: The inferior esophageal nerve (ION) is one of the four nerves that make up the stomatogastric nerve (SGN).
+        meaning: UBERON:8910017
+      inferior lateral occipital cortex:
+        description: 'UBERON region ''inferior lateral occipital cortex'' (UBERON:0022367). Synonyms: lateral occipital cortex, inferior division (OLI), lateral occipital cortex, inferior division.'
+        meaning: UBERON:0022367
+      inferior lobe:
+        description: 'UBERON region ''inferior lobe'' (UBERON:2000165). Synonyms: inferior lobes.'
+        meaning: UBERON:2000165
+      inferior rostral gyrus:
+        description: UBERON region 'inferior rostral gyrus' (UBERON:0019278).
+        meaning: UBERON:0019278
+      inferior transverse frontopolar gyrus:
+        description: 'UBERON region ''inferior transverse frontopolar gyrus'' (UBERON:0024183). Synonyms: inferior transverse frontopolar gyrus.'
+        meaning: UBERON:0024183
+      infralimbic area:
+        description: A region in the medial prefrontal cortex that is ventral to the prelimbic area important in supression of conditioned reward and fear behaviour.
+        meaning: UBERON:8440033
+      interanterodorsal nucleus of the thalamus:
+        description: A group of nerve cells that bridges the midline of the thalamus between the anterodorsal nucleus of the thalamus of the left and right sides. According to Crosby (1962), it is more developed and consistently present in rodents than in primates (adapted from Brain Info).
+        meaning: UBERON:0035972
+      intergeniculate leaflet of the lateral geniculate complex:
+        description: 'UBERON region ''intergeniculate leaflet of the lateral geniculate complex'' (UBERON:0035975). Synonyms: IGL, intergeniculate leaflet of the lateral geniculate complex, intergeniculate leaflet, lateral geniculate complex.'
+        meaning: UBERON:0035975
+      intermediate hypothalamic region:
+        description: )
+        meaning: UBERON:0002555
+      intermediate part of hypophysis:
+        description: 'UBERON region ''intermediate part of hypophysis'' (UBERON:0023752). Synonyms: intermediate lobe of hypophysis, intermediate part of hypophysis, intermediate region of hypophysis.'
+        meaning: UBERON:0023752
+      interstitial part of hyperpallium apicale:
+        description: Missing definition for term UBERON:0014758. Please replace it using linked reference.
+        meaning: UBERON:0014758
+      isla magna of Calleja:
+        description: Regional part of telencephalon; the most prominent of the islands of Calleja located medially in the nucleus accumbens (adapted from Braininfo.org).
+        meaning: UBERON:0023868
+      islands of Calleja of olfactory tubercle:
+        description: Part of olfactory tubercle defined by dense aggregations of granule cells.
+        meaning: UBERON:0023867
+      isthmus of cingulate cortex:
+        description: 'UBERON region ''isthmus of cingulate cortex'' (UBERON:0027061). Synonyms: isthmus of cingulate cortex.'
+        meaning: UBERON:0027061
+      junction of superior esophageal nerve and stomatogastric nerve (sensu Cancer borealis):
+        description: The junction between the stomatogastric nerve (STN) and the superior esophageal nerve (SON) shows synaptic structures. Octopamine may be released at this site by projection neurons; its application at this junction induces action potentials in the axons of the modulatory commissural neuron 5 (MCN5) that project from the commissural ganglia to the stomatogastric ganglion (STG).
+        meaning: UBERON:8910022
+      koniocortex:
+        description: Regions of the cerebal cortex characterized by a particularly well-developed inner granular layer (layer 4); this type of cerebral cortex is represented by the primary sensory Brodmann area 17 of the visual cortex, Brodmann areas 1-3 of the somatic sensory cortex, and Brodmann area 41 of the auditory cortex.
+        meaning: UBERON:0013589
+      lateral amygdaloid nucleus, dorsolateral part:
+        description: 'UBERON region ''lateral amygdaloid nucleus, dorsolateral part'' (UBERON:0023415). Synonyms: lateral amygdaloid nucleus, dorsolateral part.'
+        meaning: UBERON:0023415
+      lateral amygdaloid nucleus, ventrolateral part:
+        description: 'UBERON region ''lateral amygdaloid nucleus, ventrolateral part'' (UBERON:0023416). Synonyms: lateral amygdaloid nucleus, ventrolateral part.'
+        meaning: UBERON:0023416
+      lateral amygdaloid nucleus, ventromedial part:
+        description: 'UBERON region ''lateral amygdaloid nucleus, ventromedial part'' (UBERON:0023417). Synonyms: lateral amygdaloid nucleus, ventromedial part.'
+        meaning: UBERON:0023417
+      lateral division:
+        description: UBERON region 'lateral division' (UBERON:2000532).
+        meaning: UBERON:2000532
+      lateral gastric nerve (sensu Cancer borealis):
+        description: Consists of lateral gastric (LG) neurons. The alternation between the lateral gastric neurons/medial gastric neurons and the lateral posterior gastric neurons control the movements of the lateral teeth in crustaceans.
+        meaning: UBERON:8910013
+      lateral granular eminence:
+        description: UBERON region 'lateral granular eminence' (UBERON:2000187).
+        meaning: UBERON:2000187
+      lateral hypothalamic area:
+        description: The lateral hypothalamus or lateral hypothalamic area is a part of the hypothalamus. It is concerned with hunger. Damage to this area can cause reduced food intake. Stimulating the lateral hypothalamus causes a desire to eat, while stimulating the ventromedial hypothalamus causes a desire to stop eating. [WP,unvetted].
+        meaning: UBERON:0002430
+      lateral orbital frontal cortex:
+        description: Component of the orbtial frontal cortex The rostral boundary is the first slice where the lateral orbital gyrus is apparent with the frontomarginal sulcus whereas the caudal boundary is the disappearance of the lateral orbital gyrus. The medial and lateral boundaries are the midpoint of the olfactory sulcus and the lateral bank of the lateral orbital sulcus and/or the circular insular sulcus respectively (Christine Fennema-Notestine).
+        meaning: UBERON:0022716
+      lateral pallium:
+        description: Subdivision of pallium that is located laterally.
+        meaning: UBERON:0014741
+      lateral ventricular nerve (sensu Cancer borealis):
+        description: The motor axons that project into the dorsal ventricular nerve bifurcate and then project into both lateral ventricular nerves.
+        meaning: UBERON:8910014
+      lateral visual area:
+        description: 'UBERON region ''lateral visual area'' (UBERON:0035895). Synonyms: VISl.'
+        meaning: UBERON:0035895
+      lateral visual area, layer 4:
+        description: 'UBERON region ''lateral visual area, layer 4'' (UBERON:0035915). Synonyms: VISl4.'
+        meaning: UBERON:0035915
+      lateral visual area, layer 5:
+        description: 'UBERON region ''lateral visual area, layer 5'' (UBERON:0035916). Synonyms: VISl5.'
+        meaning: UBERON:0035916
+      lateral visual area, layer 6a:
+        description: 'UBERON region ''lateral visual area, layer 6a'' (UBERON:0035918). Synonyms: VISl6a.'
+        meaning: UBERON:0035918
+      left auditory cortex:
+        description: An auditory cortex that is in the right side of a brain.
+        meaning: UBERON:0009898
+      left dorsal thalamus:
+        description: A dorsal thalamus that is in_the_left_side_of a diencephalon.
+        meaning: UBERON:0013683
+      left hemisphere of cerebellum:
+        description: A cerebellar hemisphere that is in_the_left_side_of a cerebellum.
+        meaning: UBERON:0014889
+      lobule simplex:
+        description: 'UBERON region ''lobule simplex'' (UBERON:0005350). Synonyms: hemispheric lobule VI, lobule VI of hemisphere of cerebellum, lobule h VI of larsell.'
+        meaning: UBERON:0005350
+      locus ceruleus:
+        description: The locus ceruleus is a dense cluster of neurons within the dorsorostral pons. This nucleus is the major location of neurons that release norepinephrine throughout the brain, and is responsible for physiological responses to stress and panic[GO]. Bluish region in the superior angle of the fourth ventricle floor, corresponding to melanin-like pigmented nerve cells which lie lateral to the ponto-mesencephalic central gray (griseum centrale). It is also known as nucleus pigmentosus pontis[GAID].
+        meaning: UBERON:0002148
+      lower rhombic lip:
+        description: Posterior portion of the rhombic lip contained within rhombomeres 2-8. Gives rise to several brainstem nuclei and choroid plexus.
+        meaning: UBERON:0009840
+      main olfactory bulb:
+        description: 'The main olfactory bulb has a multi-layered cellular architecture. In order from surface to the center the layers are: Glomerular layer, External plexiform layer, Mitral cell layer, Internal plexiform layer, Granule cell layer[WP].'
+        meaning: UBERON:0009951
+      matrix compartment:
+        description: The larger of two chemoarchitectural compartments identified in the neostriatum through differential staining for various biochemical markers. It usually is identified through differentially high staining for acetylcholinesterase and calbinin D28K.
+        meaning: UBERON:0027368
+      matrix compartment of caudate nucleus:
+        description: Matrix compartment located in the caudate nucleus.
+        meaning: UBERON:0029001
+      matrix compartment of putamen:
+        description: 'UBERON region ''matrix compartment of putamen'' (UBERON:0029002). Synonyms: matrix compartment of putamen.'
+        meaning: UBERON:0029002
+      matrix part of head of caudate nucleus:
+        description: Matrix compartment located in the head of the caudate nucleus.
+        meaning: UBERON:0027245
+      matrix part of tail of caudate nucleus:
+        description: Matrix compartment located in the tail of the caudate nucleus.
+        meaning: UBERON:0027246
+      medial accessory olive:
+        description: Regional part of the inferior olivary complex.
+        meaning: UBERON:0014287
+      medial caudal lobe:
+        description: UBERON region 'medial caudal lobe' (UBERON:2000388).
+        meaning: UBERON:2000388
+      medial division:
+        description: UBERON region 'medial division' (UBERON:2000280).
+        meaning: UBERON:2000280
+      medial orbital frontal cortex:
+        description: Component of the orbtial frontal cortex. The rostral boundary is the first slice where the medial orbital gyrus became visible whereas the caudal boundary is the disappearance of the medial orbital gyrus/gyrus rectus. The medial and lateral boundaries are the cingulate cortex on the u2018inflatedu2019 surface and the medial bank of the superior frontal gyrus (or the cingulate gyrus when visible) respectively (Christine Fennema-Notestine).
+        meaning: UBERON:0022352
+      medial pallium:
+        description: Subdivision of pallium that is located is the medial position in vertebrates with an evaginated brain and in the distal position in vertebrates with an everted brain.
+        meaning: UBERON:0014738
+      medial prefrontal cortex:
+        description: 'The medial prefrontal cortex (mPFC) is a subdivision of the prefrontal cortex composed of BA12, BA25, and anterior cingulate cortex: BA32, BA33, BA24. Within this region is the dorsal nexus, which interconnects multiple brain networks and plays a role in maintenance and manipulation of information (working memory), as well as supporting the control of cognitive functions such as emotion processing and regulation, memory, decision making, and conflict resolution.'
+        meaning: UBERON:4450000
+      medial preoptic region:
+        description: 'UBERON region ''medial preoptic region'' (UBERON:0007769). Synonyms: medial preoptic area, medial preopticarea.'
+        meaning: UBERON:0007769
+      medial transverse frontopolar gyrus:
+        description: 'UBERON region ''medial transverse frontopolar gyrus'' (UBERON:0024193). Synonyms: medial transverse frontopolar gyrus.'
+        meaning: UBERON:0024193
+      medial ventral tegmental area:
+        description: 'UBERON region ''medial ventral tegmental area'' (UBERON:0023865). Synonyms: medial ventral tegmental area.'
+        meaning: UBERON:0023865
+      median eminence of neurohypophysis:
+        description: Elevation on the ventral surface of the brain located at the zone of attachment between the hypothalamic floor and the hypophysis (Butler and Hodos, Comparative Vertebrate Neuroanatomy, 2nd ed., 2005, pg. 446).
+        meaning: UBERON:0002197
+      median tuberal portion:
+        description: Multi-tissue structure which is part of the hypothalamus and consists of caudal and ventral zones, and is separated from the dorsal hypothalamic zone by a deep ventral sulcus. From Neuroanatomy of the Zebrafish Brain.
+        meaning: UBERON:2000392
+      median ventricular nerve (sensu Cancer borealis):
+        description: Most of the efferent fibers leaving the stomatogastric ganglion and leading to the gastric mill or pyloric stomach muscles run posteriorly in the dorsal median ventricular nerve. This nerve branches bilaterally into the right and left lateral ventricular nerves (LVN) which go to their respective sides of the stomach.
+        meaning: UBERON:8910023
+      medullary command nucleus:
+        description: 'Definition reference: Moortgat, KT, Bullock, TH, and Sejnowski TJ. 2000. J Neurophysiol 83: 971-983. Precision of the Pacemaker Nucleus in a Weakly Electric Fish: Network Versus Cellular Influences.'
+        meaning: UBERON:2002107
+      mesopallium:
+        description: 'UBERON region ''mesopallium'' (UBERON:0007349). Synonyms: middle pallium.'
+        meaning: UBERON:0007349
+      midbrain:
+        description: The midbrain is the middle division of the three primary divisions of the developing chordate brain or the corresponding part of the adult brain (in vertebrates, includes a ventral part containing the cerebral peduncles and a dorsal tectum containing the corpora quadrigemina and that surrounds the aqueduct of Sylvius connecting the third and fourth ventricles)[GO].
+        meaning: UBERON:0001891
+      midbrain raphe nuclei:
+        description: Midline nuclei found in the midbrain, includes the dorsal raphe nucleus and the rostral linear nucleus of raphe.
+        meaning: UBERON:0007412
+      midbrain tectum:
+        description: Dorsal part of the midbrain, consisting of the superior and inferior colliculi and the pretectal nuclei (MM).
+        meaning: UBERON:0002314
+      midbrain tegmentum:
+        description: '''tegmentum'' is used generically for the ventral part of the brainstem (ISBN:0471888893). We use the label ''midbrain tegmentum'' to denote the midbrain structure. In NIFSTD tegmentum is a composite structure and there is a separate class for midbrain tegmentum and pontine tegmentum'
+        meaning: UBERON:0001943
+      neocortex:
+        description: 'An area of cerebral cortex defined on the basis of cytoarchitecture that have six layers. Starting from the cortical surface the layers are: molecular layer (I), external granular layer (II), external pyramidal layer (III), internal granular layer (IV), internal pyramidal layer (V), and multiform layer (VI). Neocortex is most prominent in the frontal lobe, the parietal lobe, the temporal lobe and the occipital lobe, less so in the cingulate gyrus, the parahippocampal gyrus and the insula. It is composed of two subdivisions: true isocortex and proisocortex (Carpenter-83)(NN).'
+        meaning: UBERON:0001950
+      neural lobe of neurohypophysis:
+        description: The posterior pituitary (or neurohypophysis) comprises the posterior lobe of the pituitary gland and is part of the endocrine system. Despite its name, the posterior pituitary gland is not a gland, per se; rather, it is largely a collection of axonal projections from the hypothalamus that terminate behind the anterior pituitary gland. [WP,unvetted].
+        meaning: UBERON:0003217
+      neurohypophysis:
+        description: The posterior part of the pituitary gland that secretes hormones involved in blood pressure regulation such as oxytocin and antidiuretic hormon.
+        meaning: UBERON:0002198
+      nidopallium:
+        description: The nidopallium, meaning nested pallium, is the region of the avian brain that is used mostly for some types of executive functions but also other higher cognitive tasks.
+        meaning: UBERON:0007334
+      noradrenergic cell group A1:
+        description: A group of cells in the vicinity of the lateral reticular nucleus of the medullary reticular formation that label for norepinephrine in primates.
+        meaning: UBERON:8440016
+      noradrenergic cell group A4:
+        description: A group of cells exhibiting noradrenergic fluorescence that, in the rat, are located in the Tegmen ventriculi quarti (roof of the fourth ventricle) ventral to the cerebellar nuclei, and in the macaque, are found at the edge of the lateral recess of the fourth ventricle caudally, extending to beneath the floor of the ventricle where they merge with the noradrenergic group A6, the locus ceruleus.
+        meaning: UBERON:8440018
+      noradrenergic cell group A5:
+        description: A group of cells in the vicinity of the superior olivary complex in the pontine tegmentum that label for norepinephine in primates, rodents, and other mammals.
+        meaning: UBERON:8440019
+      noradrenergic cell group A6sc:
+        description: A group of cells fluorescent for norepinephrine that are scattered in the nucleus subceruleus of the macaque.
+        meaning: UBERON:8440022
+      noradrenergic cell group A7:
+        description: A group of cells fluorescent for norepinephrine that is located in the pontine reticular formation ventral to the superior cerebellar peduncle of the pons in rodents and in primates.
+        meaning: UBERON:8440021
+      noradrenergic cell group Acg:
+        description: A group of cells fluorescent for norepinephrine that are located in the central gray of the midbrain at the level of the trochlear nucleus in the squirrel monkey (Saimiri) and to a lesser degree in the macaque.
+        meaning: UBERON:8440023
+      noradrenergic cell groups:
+        description: Collections of neurons in the central nervous system that have been demonstrated by histochemical fluorescence to contain the neurotransmitter norepinephrine (noradrenalin).
+        meaning: UBERON:8440015
+      noradrenergiccell group A2:
+        description: A group of cells in the vicinity of the dorsal motor nucleus of the vagus nerve in the medulla that label for norepinephrine in primates and rodents.
+        meaning: UBERON:8440017
+      nucleus of the brachium of the inferior colliculus:
+        description: 'UBERON region ''nucleus of the brachium of the inferior colliculus'' (UBERON:0036012). Synonyms: BrC, NB, brachial nucleus of the inferior colliculus.'
+        meaning: UBERON:0036012
+      occipital fusiform gyrus:
+        description: 'UBERON region ''occipital fusiform gyrus'' (UBERON:0022364). Synonyms: FuGo, occipital fusiform gyrus (OF), occipitotemporal (fusiform) gyrus, occipital part.'
+        meaning: UBERON:0022364
+      occipital pole:
+        description: The anterior end of the hemisphere is named the frontal pole. The posterior end is named the occipital pole. The anterior end of the temporal lobe, the temporal pole. [WP,unvetted].
+        meaning: UBERON:0002902
+      olfactory bulb:
+        description: A bulbous anterior projection of the olfactory lobe that is the place of termination of the olfactory nerves and is especially well developed in lower vertebrates (as fishes)[BTO].
+        meaning: UBERON:0002264
+      olfactory cortex:
+        description: Aggregate brain region defined as those areas of cerebral cortex receiving direct synaptic input from the olfactory bulb (Price, 1973). It usually includes the piriform cortex and sometimes other areas.
+        meaning: UBERON:0002894
+      olfactory entorhinal cortex:
+        description: A part of the entorhinal area defined on the basis of connectivity. It is the rostral portion, which receives a projection from the olfactory bulb (Price-90)-Adapted from Brain Info.
+        meaning: UBERON:0022453
+      olfactory trigone:
+        description: A small triangular area in front of the anterior perforated substance. Its apex, directed forward, occupies the posterior part of the olfactory sulcus, and is brought into view by throwing back the olfactory tract (adapted from Wikipedia).
+        meaning: UBERON:0002922
+      Ongur, Price, and Ferry (2003) area 10l:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area 10l'' (UBERON:0028437). Synonyms: ongur, price, and ferry (2003) area 10l.'
+        meaning: UBERON:0028437
+      Ongur, Price, and Ferry (2003) area 10m:
+        description: Area 10m is a cortical area in the frontal lobe defined on multiple architectonic criteria.
+        meaning: UBERON:0028415
+      Ongur, Price, and Ferry (2003) area 10o:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area 10o'' (UBERON:0028414). Synonyms: ongur, price, and ferry (2003) area 10o.'
+        meaning: UBERON:0028414
+      Ongur, Price, and Ferry (2003) area 10p:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area 10p'' (UBERON:0028412). Synonyms: ongur, price, and ferry (2003) area 10p.'
+        meaning: UBERON:0028412
+      Ongur, Price, and Ferry (2003) area 10r:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area 10r'' (UBERON:0028413). Synonyms: ongur, price, and ferry (2003) area 10r.'
+        meaning: UBERON:0028413
+      Ongur, Price, and Ferry (2003) area 11l:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area 11l'' (UBERON:0028427). Synonyms: ongur, price, and ferry (2003) area 11l.'
+        meaning: UBERON:0028427
+      Ongur, Price, and Ferry (2003) area 11m:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area 11m'' (UBERON:0028416). Synonyms: ongur, price, and ferry (2003) area 11m.'
+        meaning: UBERON:0028416
+      Ongur, Price, and Ferry (2003) area 13a:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area 13a'' (UBERON:0028419). Synonyms: ongur, price, and ferry (2003) area 13a.'
+        meaning: UBERON:0028419
+      Ongur, Price, and Ferry (2003) area 13b:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area 13b'' (UBERON:0028418). Synonyms: ongur, price, and ferry (2003) area 13b.'
+        meaning: UBERON:0028418
+      Ongur, Price, and Ferry (2003) area 13l:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area 13l'' (UBERON:0028429). Synonyms: ongur, price, and ferry (2003) area 13l.'
+        meaning: UBERON:0028429
+      Ongur, Price, and Ferry (2003) area 13m:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area 13m'' (UBERON:0028428). Synonyms: ongur, price, and ferry (2003) area 13m.'
+        meaning: UBERON:0028428
+      Ongur, Price, and Ferry (2003) area 14c:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area 14c'' (UBERON:0028421). Synonyms: ongur, price, and ferry (2003) area 14c.'
+        meaning: UBERON:0028421
+      Ongur, Price, and Ferry (2003) area 14r:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area 14r'' (UBERON:0028420). Synonyms: ongur, price, and ferry (2003) area 14r.'
+        meaning: UBERON:0028420
+      Ongur, Price, and Ferry (2003) area 24:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area 24'' (UBERON:0028422). Synonyms: ongur, price, and ferry (2003) area 24.'
+        meaning: UBERON:0028422
+      Ongur, Price, and Ferry (2003) area 25:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area 25'' (UBERON:0028423). Synonyms: ongur, price, and ferry (2003) area 25.'
+        meaning: UBERON:0028423
+      Ongur, Price, and Ferry (2003) area 32:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area 32'' (UBERON:0028424). Synonyms: ongur, price, and ferry (2003) area 32.'
+        meaning: UBERON:0028424
+      Ongur, Price, and Ferry (2003) area 47l:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area 47l'' (UBERON:0028430). Synonyms: ongur, price, and ferry (2003) area 47l.'
+        meaning: UBERON:0028430
+      Ongur, Price, and Ferry (2003) area 47m:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area 47m'' (UBERON:0028431). Synonyms: ongur, price, and ferry (2003) area 47m.'
+        meaning: UBERON:0028431
+      Ongur, Price, and Ferry (2003) area 47r:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area 47r'' (UBERON:0028432). Synonyms: ongur, price, and ferry (2003) area 47r.'
+        meaning: UBERON:0028432
+      Ongur, Price, and Ferry (2003) area 47s:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area 47s'' (UBERON:0028417). Synonyms: ongur, price, and ferry (2003) area 47s.'
+        meaning: UBERON:0028417
+      Ongur, Price, and Ferry (2003) area 9:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area 9'' (UBERON:0028436). Synonyms: ongur, price, and ferry (2003) area 9.'
+        meaning: UBERON:0028436
+      Ongur, Price, and Ferry (2003) area AON:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area AON'' (UBERON:0028440). Synonyms: ongur, price, and ferry (2003) area aon.'
+        meaning: UBERON:0028440
+      Ongur, Price, and Ferry (2003) area G:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area G'' (UBERON:0028425). Synonyms: ongur, price, and ferry (2003) area g.'
+        meaning: UBERON:0028425
+      Ongur, Price, and Ferry (2003) area Iai:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area Iai'' (UBERON:0028435). Synonyms: ongur, price, and ferry (2003) area iai.'
+        meaning: UBERON:0028435
+      Ongur, Price, and Ferry (2003) area Ial:
+        description: Insula agranular lateral area.
+        meaning: UBERON:0028434
+      Ongur, Price, and Ferry (2003) area Iam:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area Iam'' (UBERON:0028433). Synonyms: ongur, price, and ferry (2003) area iam.'
+        meaning: UBERON:0028433
+      Ongur, Price, and Ferry (2003) area Iapm:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area Iapm'' (UBERON:0028439). Synonyms: ongur, price, and ferry (2003) area iapm.'
+        meaning: UBERON:0028439
+      Ongur, Price, and Ferry (2003) area PrCO:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) area PrCO'' (UBERON:0028426). Synonyms: ongur, price, and ferry (2003) area prco.'
+        meaning: UBERON:0028426
+      Ongur, Price, and Ferry (2003) prefrontal cortical partition scheme region:
+        description: 'UBERON region ''Ongur, Price, and Ferry (2003) prefrontal cortical partition scheme region'' (UBERON:0026777). Synonyms: ongur, price, and ferry (2003) prefrontal cortical areas, ongur, price, and ferry (2003) prefrontal cortical parcellation scheme, ongur, price, and ferry (2003) prefrontal cortical partition scheme region.'
+        meaning: UBERON:0026777
+      operculum of brain:
+        description: The most posterior portion of the inferior frontal gyrus of the frontal lobe in the brain. In an axial plane, the Sylvian fissure extends from the operculum posteriorly to divide the frontal from the temporal lobe. Broca's area is a notable part of the operculum, which plays a key role in conversation or speech production, reading and writing. Its vascular supply comes from the M3 branches of the middle cerebral artery[WP].
+        meaning: UBERON:0010262
+      orbital gyri complex:
+        description: 'UBERON region ''orbital gyri complex'' (UBERON:0022695). Synonyms: orbital gyri complex, orgital_gyri.'
+        meaning: UBERON:0022695
+      orbital operculum:
+        description: 'UBERON region ''orbital operculum'' (UBERON:0002593). Synonyms: frontal core, gigantopyramidal area 4, operculum orbitale.'
+        meaning: UBERON:0002593
+      P1 area of pallium (Myxiniformes):
+        description: Most superficial of the areas of the pallium in the enlarged evaginated telencephalon of hagfishes.
+        meaning: UBERON:0014751
+      P2 area of pallium (Myxiniformes):
+        description: Area directly deep to the P1 area of pallium in hagfishes.
+        meaning: UBERON:0014752
+      P3 area of pallium (Myxiniformes):
+        description: Area directly deep to the P2 area of pallium in hagfishes.
+        meaning: UBERON:0014753
+      P4 area of pallium (Myxiniformes):
+        description: Area directly deep to the P3 area of pallium in hagfishes.
+        meaning: UBERON:0014754
+      P5 area of pallium (Myxiniformes):
+        description: Most deep of the areas of the pallium in the enlarged evaginated telencephalon of hagfishes.
+        meaning: UBERON:0014755
+      paleocortex:
+        description: Part of the allocortex defined on the basis of cytoarchitecture. The other two are archicortex and periallocortex. It consists of very thin, primitive cortex with few clearly defined layers. It is distinguished ontogenetically by the fact that it does not develop through a cortical plate. It includes the olfactory bulb, accessory olfactory bulb, olfactory tubercle, septum, prepyriform area and periamygdalar area ( Stephan-1975 ). (adapted from Brain Info).
+        meaning: UBERON:0014735
+      pallium:
+        description: Dorsal part (roof region) of the telencephalon[GO].
+        meaning: UBERON:0000203
+      paracingulate gyrus:
+        description: 'UBERON region ''paracingulate gyrus'' (UBERON:0022398). Synonyms: PaCG, paracingulate gyrus (PAC).'
+        meaning: UBERON:0022398
+      paraflocculus:
+        description: 'UBERON region ''paraflocculus'' (UBERON:0005351). Synonyms: cerebellar tonsil, hemispheric lobule IX, neuraxis paraflocculus.'
+        meaning: UBERON:0005351
+      paramedian lobule:
+        description: The anterior portion of the posteroinferior lobule of the cerebellum, the posterior portion being the semilunar lobule inferior; the two are continuous with the tuber of the vermis.
+        meaning: UBERON:0005349
+      parapyramidal nucleus:
+        description: A small group of cells located lateral to the pyramid of the medulla in the rat and the mouse that functionally it belongs to the reticular formation of the subcortical motor system.
+        meaning: UBERON:8440025
+      parapyramidal nucleus, deep part:
+        description: The part of the parapyramidal nucleus that is closely adjacent to the inner surface of the pyramidal tract.
+        meaning: UBERON:8440026
+      parapyramidal nucleus, superficial part:
+        description: The part of the parapyramidal nucleus that is located on the ventral surface of the medulla lateral to the pyramidal tract.
+        meaning: UBERON:8440027
+      parasubiculum:
+        description: A transitional zone between the presubiculum and the entorhinal area in the mouse (Paxinos-2001), the rat (Swanson-1998) and the primate (Zilles-1990). Defined on the basis of cytoarchitecture, it is more similar to the presubiculum than to the entorhinal area (Zilles-1990). (from Brain Info).
+        meaning: UBERON:0004683
+      paraventricular nucleus of the hypothalamus descending division:
+        description: 'UBERON region ''paraventricular nucleus of the hypothalamus descending division'' (UBERON:0014602). Synonyms: PVHd, paraventricular hypothalamic nucleus, descending division, paraventricular nucleus of the hypothalamus descending division.'
+        meaning: UBERON:0014602
+      paraventricular nucleus of the hypothalamus descending division - dorsal parvocellular part:
+        description: 'UBERON region ''paraventricular nucleus of the hypothalamus descending division - dorsal parvocellular part'' (UBERON:0014596). Synonyms: PVHdp, paraventricular hypothalamic nucleus dorsal parvicellular part, paraventricular hypothalamic nucleus, descending division, dorsal parvicellular part.'
+        meaning: UBERON:0014596
+      paraventricular nucleus of the hypothalamus descending division - forniceal part:
+        description: 'UBERON region ''paraventricular nucleus of the hypothalamus descending division - forniceal part'' (UBERON:0014598). Synonyms: PVHf, paraventricular hypothalamic nucleus forniceal part, paraventricular hypothalamic nucleus, descending division, forniceal part.'
+        meaning: UBERON:0014598
+      paraventricular nucleus of the hypothalamus descending division - lateral parvocellular part:
+        description: 'UBERON region ''paraventricular nucleus of the hypothalamus descending division - lateral parvocellular part'' (UBERON:0014597). Synonyms: PVHlp, paraventricular hypothalamic nucleus lateral parvicellular part, paraventricular hypothalamic nucleus, descending division, lateral parvicellular part.'
+        meaning: UBERON:0014597
+      paraventricular nucleus of the hypothalamus descending division - medial parvocellular part, ventral zone:
+        description: 'UBERON region ''paraventricular nucleus of the hypothalamus descending division - medial parvocellular part, ventral zone'' (UBERON:0014595). Synonyms: PVHmpv, paraventricular hypothalamic nucleus medial parvicellular part, ventral zone, paraventricular hypothalamic nucleus, descending division, medial parvicellular part, ventral zone.'
+        meaning: UBERON:0014595
+      paraventricular nucleus of the hypothalamus magnocellular division:
+        description: 'UBERON region ''paraventricular nucleus of the hypothalamus magnocellular division'' (UBERON:0014603). Synonyms: PVHm, paraventricular hypothalamic nucleus magnocellular division, paraventricular hypothalamic nucleus, magnocellular division.'
+        meaning: UBERON:0014603
+      paraventricular nucleus of the hypothalamus magnocellular division - anterior magnocellular part:
+        description: 'UBERON region ''paraventricular nucleus of the hypothalamus magnocellular division - anterior magnocellular part'' (UBERON:0014599). Synonyms: PVHam, paraventricular hypothalamic nucleus anterior magnocellular part, paraventricular hypothalamic nucleus, magnocellular division, anterior magnocellular part.'
+        meaning: UBERON:0014599
+      paraventricular nucleus of the hypothalamus magnocellular division - medial magnocellular part:
+        description: 'UBERON region ''paraventricular nucleus of the hypothalamus magnocellular division - medial magnocellular part'' (UBERON:0014600). Synonyms: PVHmm, paraventricular hypothalamic nucleus medial magnocellular part, paraventricular hypothalamic nucleus, magnocellular division, medial magnocellular part.'
+        meaning: UBERON:0014600
+      paraventricular nucleus of the hypothalamus magnocellular division - posterior magnocellular part:
+        description: 'UBERON region ''paraventricular nucleus of the hypothalamus magnocellular division - posterior magnocellular part'' (UBERON:0014601). Synonyms: PVHpm, paraventricular hypothalamic nucleus posterior magnocellular part, paraventricular hypothalamic nucleus, magnocellular division, posterior magnocellular part.'
+        meaning: UBERON:0014601
+      paraventricular nucleus of the hypothalamus magnocellular division - posterior magnocellular part lateral zone:
+        description: 'UBERON region ''paraventricular nucleus of the hypothalamus magnocellular division - posterior magnocellular part lateral zone'' (UBERON:0022791). Synonyms: paraventricular nucleus of the hypothalamus magnocellular division - posterior magnocellular part lateral zone.'
+        meaning: UBERON:0022791
+      paraventricular nucleus of the hypothalamus magnocellular division - posterior magnocellular part medial zone:
+        description: 'UBERON region ''paraventricular nucleus of the hypothalamus magnocellular division - posterior magnocellular part medial zone'' (UBERON:0022783). Synonyms: paraventricular nucleus of the hypothalamus magnocellular division - posterior magnocellular part medial zone.'
+        meaning: UBERON:0022783
+      paraventricular nucleus of the hypothalamus parvocellular division:
+        description: 'UBERON region ''paraventricular nucleus of the hypothalamus parvocellular division'' (UBERON:0014604). Synonyms: PVHp, paraventricular hypothalamic nucleus parvicellular division, paraventricular hypothalamic nucleus, parvicellular division.'
+        meaning: UBERON:0014604
+      paravermic lobule II:
+        description: 'UBERON region ''paravermic lobule II'' (UBERON:0028918). Synonyms: paravermic lobule ii.'
+        meaning: UBERON:0028918
+      paravermic lobule III:
+        description: 'UBERON region ''paravermic lobule III'' (UBERON:0028919). Synonyms: paravermic lobule iii.'
+        meaning: UBERON:0028919
+      paravermic lobule IV:
+        description: 'UBERON region ''paravermic lobule IV'' (UBERON:0028920). Synonyms: paravermic lobule iv.'
+        meaning: UBERON:0028920
+      paravermic lobule IX:
+        description: 'UBERON region ''paravermic lobule IX'' (UBERON:0028921). Synonyms: paravermic lobule ix, ventralis.'
+        meaning: UBERON:0028921
+      paravermic lobule V:
+        description: 'UBERON region ''paravermic lobule V'' (UBERON:0028922). Synonyms: paravermic lobule v.'
+        meaning: UBERON:0028922
+      paravermic lobule VI:
+        description: 'UBERON region ''paravermic lobule VI'' (UBERON:0028923). Synonyms: paravermic lobule vi.'
+        meaning: UBERON:0028923
+      paravermic lobule VII:
+        description: 'UBERON region ''paravermic lobule VII'' (UBERON:0028924). Synonyms: paravermic lobule vii.'
+        meaning: UBERON:0028924
+      paravermic lobule VIII:
+        description: 'UBERON region ''paravermic lobule VIII'' (UBERON:0028925). Synonyms: paravermic lobule viii.'
+        meaning: UBERON:0028925
+      paravermic lobule X:
+        description: 'UBERON region ''paravermic lobule X'' (UBERON:0036043). Synonyms: PV-X, paravermis, flocculonodular lobe portion.'
+        meaning: UBERON:0036043
+      paravermis lobule area:
+        description: 'UBERON region ''paravermis lobule area'' (UBERON:0027285). Synonyms: paravermis of cerebellum, regional parts of the paravermal lobules.'
+        meaning: UBERON:0027285
+      paravermis of the anterior lobe of the cerebellum:
+        description: 'UBERON region ''paravermis of the anterior lobe of the cerebellum'' (UBERON:0027310). Synonyms: paravermis of the anterior lobe of the cerebellum, paravermis, anterior lobe portion.'
+        meaning: UBERON:0027310
+      paravermis of the posterior lobe of the cerebellum:
+        description: 'UBERON region ''paravermis of the posterior lobe of the cerebellum'' (UBERON:0027309). Synonyms: paravermis of the posterior lobe of the cerebellum, paravermis, posterior lobe portion.'
+        meaning: UBERON:0027309
+      paravermis parts of the cerebellar cortex:
+        description: 'UBERON region ''paravermis parts of the cerebellar cortex'' (UBERON:0025677). Synonyms: paravermis parts of the cerebellar cortex, pars intermedia.'
+        meaning: UBERON:0025677
+      parietal operculum:
+        description: The parietal operculum, forming the superior bank of the sylvian fissure, as studied in the cat, contains the secondary somatosensory representation, 'S-II', and a second somatotopic representation (parietal ventral, or PV). Anatomically, primate S-II receives inputs from area 3 and area 1, and projects to PV and area 7. PV has projections to area 5 and premotor areas. [WP,unvetted].
+        meaning: UBERON:0002911
+      periallocortex:
+        description: Agranular cortical structures located next to the allocortex.
+        meaning: UBERON:0014736
+      periamygdaloid cortex:
+        description: 'Is located ventral to the basal nucleus and has three subdivisions: the periamygdaloid cortex, the medial division, and the sulcal division.'
+        meaning: UBERON:0014537
+      pericalcarine cortex:
+        description: Component of the parietal lobe. The rostral boundary of the pericalcarine cortex was the first appearance of the calcarine sulcus whereas the caudal boundary was the most posterior coronal slice where the calcarine sulcus was visualized. The medial and lateral boundaries were the medial portion of the temporal and occipital cortices and the inferomedial end of the calcarine sulcus respectively (Christine Fennema-Notestine).
+        meaning: UBERON:0022534
+      Perigeniculate lamina of the lateral geniculate nucleus (sensu Mustela putorius furo):
+        description: A lamina of the LGN in the ferret located medial to the A lamina in the rostral regions of the visual thalamus ((Linden, Guillery & Cucchiaro, 1981; Dell, Innocenti, Hilgetag, & Manger, 2019).
+        meaning: UBERON:8440070
+      perirhinal cortex:
+        description: 'Region of cortex near to the rhinal sulcus. It is defined differently in different nomenclatures, due in part to the lack of agreement on the definition of the border of this region. In the rat, the perirhinal cortex occupies only caudal levels of the rhinal sulcus while in the monkey, it occurpies the full rostrocaudal extent of the rhinal sulcus (Burwell et al., Hippocampus, 5: 390-408, 1995).'
+        meaning: UBERON:0006083
+      perirhinal cortex of Burwell et al 1995:
+        description: Rostral portion of the parahippocampal cortex.
+        meaning: UBERON:0023936
+      perirhinal cortex of primate of Burwell et al 1995:
+        description: Cortical region near the rhinal sulcus in primate encompassing Brodmann's areas 35 and 36.
+        meaning: UBERON:0025581
+      perirhinal cortex of rodent of Burwell et al 1995:
+        description: Cortical region surrounding the posterior rhinal sulcus in the rat, encompassing areas 35 and 36 in the rat. Rostraly, it abuts the posterior insular cortex.
+        meaning: UBERON:0025584
+      periventricular grey zone:
+        description: UBERON region 'periventricular grey zone' (UBERON:2000516).
+        meaning: UBERON:2000516
+      pineal body:
+        description: A midline, cone like structure located in the dorso-caudal roof of the 3rd ventricle, attached by peduncles to the habenular and posterior commissures. The stalk contains nerve fibers, blood vessels, connective tissue and parenchymal cells (Paxinos, The Rat Central Nervous System, 2nd ed, pg 399).
+        meaning: UBERON:0001905
+      pineal gland stalk:
+        description: 'UBERON region ''pineal gland stalk'' (UBERON:0011768). Synonyms: habenula, epiphyseal stalk, pineal stalk.'
+        meaning: UBERON:0011768
+      piriform cortex:
+        description: The subdivision of the laminated olfactory cortex with only three main layers that receive monosynaptic input from the olfactory bulb via the lateral olfactory tract; it is located bilaterally in the ventrolateral forebrain and is commonly divided into anterior and posterior regions.
+        meaning: UBERON:0004725
+      piriform-amygdalar area:
+        description: In the human and macaque, the piriform-amygdalar area is not distinguished from the postpiriform transition area.
+        meaning: UBERON:8440039
+      pituitary stalk:
+        description: The apical portion of the tubular structure extending from the hypothalamus to the posterior lobe of the pituitary gland.
+        meaning: UBERON:0002434
+      planum polare:
+        description: A portion of the superior temporal gyrus near the temporal pole in the human.
+        meaning: UBERON:0023861
+      planum temporale:
+        description: The planum temporale is the cortical area just posterior to the auditory cortex within the Sylvian fissure. It is a triangular region which forms the heart of Wernicke's area, one of the most important functional areas for language. The planum temporale shows a significant asymmetry. In 65% of all individuals the left planum temporale appears to be more developed, while the right planum temporale is more developed in only 10%. In some peoplebs brains, the planum temporale is more than five times larger on the left than on the right, making it the most asymmetrical structure in the brain. This greater size of the left planum temporale compared with the right is already present in the foetus, where it can be observed starting from the 31st week of gestation. This observation strengthens the hypothesis of a genetic predisposition for brain asymmetry.
+        meaning: UBERON:0022268
+      pole of cerebral hemisphere:
+        description: The anterior end of the hemisphere is named the frontal pole. The posterior end is named the occipital pole. The anterior end of the temporal lobe, the temporal pole.
+        meaning: UBERON:0009899
+      pons:
+        description: The part of the central nervous system lying between the medulla oblongata and the midbrain, ventral to the cerebellum.
+        meaning: UBERON:0000988
+      posterior cingulate cortex:
+        description: Component of the cingulate cortex. The rostral and caudal extent were the caudal anterior and the isthmus divisions of the cingulate cortex respectively. The medial and lateral boundaries were the corpus callosum and as the superior frontal gyrus and/or paracentral lobule respectively (Christine Fennema-Notestine).
+        meaning: UBERON:0022353
+      posterior corona radiata:
+        description: 'UBERON region ''posterior corona radiata'' (UBERON:0022427). Synonyms: cor-p, posterior portion of corona radiata.'
+        meaning: UBERON:0022427
+      posterior division of bed nuclei of stria terminalis:
+        description: One of two divisions of the nuclei of stria terminalis based on topology, connectivity and multiple stains in the rat ( Swanson-2004 ) and the mouse ( Dong-2004 ). The other division consists of the anterior nuclei of stria terminalis. The posterior division includes the principal nucleus of stria terminalis, interfascicular nucleus of stria terminalis, transverse nucleus of stria terminalis, premedullary nucleus of stria terminalis, dorsal nucleus of stria terminalis, the strial extension of stria terminalis, and the cell sparse zone of stria terminalis.
+        meaning: UBERON:0011177
+      posterior hypothalamic region:
+        description: The part of the hypothalamus posterior to the middle region consisting of several nuclei including the medial mamillary nucleus, lateral mamillary nucleus, and posterior hypothalamic nucleus (posterior hypothalamic area). The posterior hypothalamic area is concerned with control of sympathetic responses and is sensitive to conditions of decreasing temperature and controls the mechanisms for the conservation and increased production of heat.
+        meaning: UBERON:0002770
+      posterior lobe of cerebellum:
+        description: The region of the cerebellum that is posterior to the primary fissure and anterior to the posteriolateral fissure.
+        meaning: UBERON:0004002
+      posterior median eminence:
+        description: 'UBERON region ''posterior median eminence'' (UBERON:0002652). Synonyms: PME, eminentia mediana posterior.'
+        meaning: UBERON:0002652
+      posterior parietal association areas:
+        description: 'UBERON region ''posterior parietal association areas'' (UBERON:0035886). Synonyms: PTLp.'
+        meaning: UBERON:0035886
+      posterior parietal caudal cortical area (sensu Mustela putorius furo):
+        description: A visual area in the ferret that lies between the medial wall of the hemisphere and the medial lip of the suprasylvian sulcus and is posterior to PPr and anterior to area 18 (on the lateral gyrus) and area 21 (on the suprasylvian gyrus).
+        meaning: UBERON:8440052
+      posterior parietal cortex:
+        description: The posterior parietal cortex is a portion of the parietal lobe which manipulates mental images, and integrates sensory and motor portions of the brain. Some sources say that it consists of Brodmann area 5 and Brodmann area 7. Other sources say it is only area 7.
+        meaning: UBERON:0034889
+      posterior parietal rostral cortical area (sensu Mustela putorius furo):
+        description: A multimodal area of the ferret involved in vision and somatosensation that lies between the medial wall of the hemisphere and the medial lip of the suprasylvian sulcus and is posterior to caudal somatosensory cortex (SIII) and anterior to PPc.
+        meaning: UBERON:8440050
+      posterior segment of paracentral lobule:
+        description: 'UBERON region ''posterior segment of paracentral lobule'' (UBERON:0035934). Synonyms: PCLp, posterior part of paracentral lobule.'
+        meaning: UBERON:0035934
+      posterior suprasylvian visual cortical area (sensu Mustela putorius furo):
+        description: A visual area in the ferret that is lateral to the occipital visual areas (area 17, 18, 19 and 21), medial to perirhinal cortex and anterior to area 20b.
+        meaning: UBERON:8440062
+      posterior temporal fusiform gyrus:
+        description: 'UBERON region ''posterior temporal fusiform gyrus'' (UBERON:0022397). Synonyms: occipitotemporal (fusiform) gyrus, posterior division.'
+        meaning: UBERON:0022397
+      posterior transverse temporal area 42:
+        description: A subdivision of the cytoarchitecturally defined temporal region of cerebral cortex. It is located in the bank of the lateral sulcus on the dorsal surface of the temporal lobe. Cytoarchitecturally it is bounded medially by the anterior transverse temporal area 41(H) and laterally by the superior temporal area 22 (Brodmann-1909). Adapted from Brain Info.
+        meaning: UBERON:0006096
+      posterolateral lateral suprasylvian visual area (sensu Mustela putorius furo):
+        description: A visual area in the ferret located in the lateral bank of the suprasylvian sulcus posterior to ALLS, anteriomedial to DLS and lateral to PMLS.
+        meaning: UBERON:8440059
+      posterolateral visual area:
+        description: 'UBERON region ''posterolateral visual area'' (UBERON:0035897). Synonyms: VISpl.'
+        meaning: UBERON:0035897
+      posterolateral visual area, layer 4:
+        description: 'UBERON region ''posterolateral visual area, layer 4'' (UBERON:0035919). Synonyms: VISpl4.'
+        meaning: UBERON:0035919
+      posteromedial lateral suprasylvian visual area (sensu Mustela putorius furo):
+        description: A visual area in the ferret that is located in the posterior bank of the suprasylvian sulcus.
+        meaning: UBERON:8440056
+      posteromedial visual area:
+        description: 'UBERON region ''posteromedial visual area'' (UBERON:0035900). Synonyms: VISpm.'
+        meaning: UBERON:0035900
+      posteromedial visual area, layer 4:
+        description: 'UBERON region ''posteromedial visual area, layer 4'' (UBERON:0035914). Synonyms: VISpm4.'
+        meaning: UBERON:0035914
+      posteromedial visual area, layer 6a:
+        description: 'UBERON region ''posteromedial visual area, layer 6a'' (UBERON:0035909). Synonyms: VISpm6a.'
+        meaning: UBERON:0035909
+      postrhinal area:
+        description: 'UBERON region ''postrhinal area'' (UBERON:0035890). Synonyms: VISpor.'
+        meaning: UBERON:0035890
+      postrhinal area, layer 4:
+        description: 'UBERON region ''postrhinal area, layer 4'' (UBERON:0035911). Synonyms: VISpor4.'
+        meaning: UBERON:0035911
+      postrhinal cortex of rodent of Burwell et al 1995:
+        description: Cortical region lying caudal to the perirhinal cortex in the rat. It encompasses the caudal levels of area 35 and the caudal portion of area 36 (ectorhinal cortex). It is bordered medially by agranular retrosplenial cortex and ventrally by the entorhinal cortex (with the exception of the caudomedial portion). The authors note that the ventral portion of the postrhinal cortex in rat may by homologous with the parahippocampal cortex in the monkey.
+        meaning: UBERON:0023928
+      postsubiculum:
+        description: Division of subicular cortex characterized by projections from the anterodorsal thalamic nucleus and to a lesser extent the anteroventral nucleus, bordered ventrally and laterally by the presubiculum and dorsally and medially by the retrosplenial granular a cortex.. The border is characterized by an abrupt change in the cyto- and chemoarchitecture.
+        meaning: UBERON:0035971
+      precentral operculum:
+        description: The ventrolateral lip of the precentral gyrus, which overlies the insula and is bounded by the lateral fissure (Brain Info).
+        meaning: UBERON:0002605
+      prefrontal cortex:
+        description: The anterior part of the frontal lobes of the brain, lying in front of the motor and premotor areas.nnThis brain region has been implicated in planning complex cognitive behaviors, personality expression, decision making and moderating correct social behavior. The basic activity of this brain region is considered to be orchestration of thoughts and actions in accordance with internal goals.nnThe most typical psychological term for functions carried out by the pre-frontal cortex area is executive function. Executive function relates to abilities to differentiate among conflicting thoughts, determine good and bad, better and best, same and different, future consequences of current activities, working toward a defined goal, prediction of outcomes, expectation based on actions, and social 'control' (the ability to suppress urges that, if not suppressed, could lead to socially-unacceptable outcomes).nnMany authors have indicated an integral link between a person's personality
+          and the functions of the prefrontal cortex. - definition adapted from Wikipedia.
+        meaning: UBERON:0000451
+      prelimbic area:
+        description: A region in the medial prefrontal cortex that is dorsal to the infralimbic area important in expression of conditioned reward and fear behaviour.
+        meaning: UBERON:8440032
+      premotor cortex:
+        description: The premotor cortex is an area of motor cortex lying within the frontal lobe of the brain. It extends 3 mm anterior to the primary motor cortex, near the Sylvian fissure, before narrowing to approximately 1 mm near the medial longitudinal fissure, which serves as the posterior border for the prefrontal cortex. The premotor cortex is largely equivalent to Brodmann area 6. Activity within this region is critical to the sensory guidance of movement and control of proximal and trunk muscles of the body.
+        meaning: UBERON:0016634
+      preoptic area:
+        description: Area of the forebrain between the anterior commissure and optic chiasm.
+        meaning: UBERON:0001928
+      prepyriform area:
+        description: Prepyriform area (or prepiriform cortex) is a portion of the rhinencephalon consisting of paleocortex. Some sources state that it is part of the primary olfactory cortex.
+        meaning: UBERON:0002590
+      Press, Brewer, Dougherty, Wade and Wandell (2001) visuotopic area V7:
+        description: 'UBERON region ''Press, Brewer, Dougherty, Wade and Wandell (2001) visuotopic area V7'' (UBERON:0026776). Synonyms: press, brewer, dougherty, wade and wandell (2001) visuotopic area v7.'
+        meaning: UBERON:0026776
+      primary auditory cortex:
+        description: The part of the auditory cortex that is located on the superior temporal gyrus in the temporal lobe and receives point-to-point input from the ventral division of the medial geniculate complex.
+        meaning: UBERON:0034751
+      primary motor cortex:
+        description: The part of the cerebral cortex that receives projections from the motor thalamus and which projects to motor neurons in the brainstem and spinal cord. The motor cortex corresponds to Brodmann's area 4 (MM). The primary motor cortex, or M1, is located on the precentral gyrus and on the anterior paracentral lobule on the medial surface of the brain. Of the three motor cortex areas, stimulation of the primary motor cortex requires the least amount of electrical current to elicit a movement. http://neuroscience.uth.tmc.edu/s3/chapter03.html.
+        meaning: UBERON:0001384
+      primary olfactory cortex:
+        description: A group of structures defined by connectivity, namely, structures that receive axons from the olfactory bulb. They include the anterior olfactory nucleus, the anterior perforated substance, the rostral part of the medial amygdaloid nucleus (anterior cortical nucleus of amygdala), and structures in the anterior part of the parahippocampal gyrus, namely, the prepyriform area, most of the periamygdaloid area, and the rostral part of the entorhinal area (Price-90). Note that some authors have regarded the olfactory bulb itself as the primary olfactory area and the areas to which it projects as secondary (Anthoney-94). In the mouse (Dong-2004) and the rat (Swanson-2004), olfactory areas include the olfactory bulb, accessory olfactory bulb, anterior olfactory nucleus, tenia tecta, prepyriform area, postpiriform transition area, piriform amygdaloid area, nucleus of lateral olfactory tract, and cortical amygdaloid area.
+        meaning: UBERON:0022469
+      primary somatosensory cortex:
+        description: '(Chapin & Lin, 1984, rat): the region considered as the SI cortex is not a cytoarchitecturally homogeneous structure but consists instead of a patchwork array of areas containing dense aggregations of layer IV granule cells, surrounded by granule-cell-sparse regions. As was shown by Welker (b71,b76), and in our own mapping studies (see Fig. 3), this discontinuous pattern of granular, or koniocortical, zones contains within itself a map of the ratbs cutaneous periphery. There are clear subtypes within this cytoarchitectural subregion, notably including the bgranular aggregateb type of cytoarchitecture characteristic of the paw, limb, and mystacial vibrissae areas, and the bbarrel-fieldb type (originally described by Woolsey and Van der Loos, b70) seen in the nose and perioral regions. In the mouse, but not the rat, such barrels also cover the whole whisker representation (Welker and Woolsey, b74).'
+        meaning: UBERON:0008933
+      primary visual area, layer 2/3:
+        description: 'UBERON region ''primary visual area, layer 2/3'' (UBERON:0035907). Synonyms: VISp2/3.'
+        meaning: UBERON:0035907
+      primary visual area, layer 4:
+        description: 'UBERON region ''primary visual area, layer 4'' (UBERON:0035904). Synonyms: VISp4.'
+        meaning: UBERON:0035904
+      primary visual area, layer 5:
+        description: 'UBERON region ''primary visual area, layer 5'' (UBERON:0035906). Synonyms: VISp5.'
+        meaning: UBERON:0035906
+      primary visual area, layer 6a:
+        description: 'UBERON region ''primary visual area, layer 6a'' (UBERON:0035892). Synonyms: VISp6a.'
+        meaning: UBERON:0035892
+      primary visual cortex:
+        description: In some species, parcellations of lobes are not well defined if at all. The primary visual cortex being part of the occiptal lobe hence could refer to it being part of the most posterior region of the mammalian cerebral cortex.
+        meaning: UBERON:0002436
+      principal anterior division of supraoptic nucleus:
+        description: One of two divisions of the supraoptic nucleus observed in mammals, formed by the ascension of the optic chiasm to split the nucleus in two. The principal anterior division consists of a dense cluster of large cells that stain darkly in Nissl preparations adjacent to the optic chiasm, extending as far rostrally to the organum vasculosum of the lamina terminalis and caudally into the posterior hypothalamus.
+        meaning: UBERON:0024078
+      proisocortex:
+        description: The part of the neocortex hich mainly consists of parts of cingulate, parahippocampal and temporopolar cortice. As distinct from isocortex (typical neocortex) which contains other regions.
+        meaning: UBERON:0014951
+      pyloric dilator nerve (sensu Cancer borealis):
+        description: Innervates muscles that dilate valves of the pylorus motor neurons involved in filtering in crustaceans. Anterior burster neurons are intrinsic oscillators that are electrically coupled with pyloric dilator neurons, causing them to fire bursts of action potentials. Together these neurons inhibit lateral pyloric and pyloric neurons, forcing them to fire in alternation with the pyloric dilator neurons.
+        meaning: UBERON:8910016
+      pyloric nerve (sensu Cancer borealis):
+        description: Innervates pyloric region of the stomach.
+        meaning: UBERON:8910015
+      pyramid of medulla oblongata:
+        description: The anterior or ventral portion of the medulla oblongata is named the pyramid and lies between the anterior median fissure and the antero-lateral sulcus. Its upper end is slightly constricted, and between it and the pons the fibers of the abducent nerve emerge; a little below the pons it becomes enlarged and prominent, and finally tapers into the anterior funiculus of the medulla spinalis, with which, at first sight, it appears to be directly continuous[WP].
+        meaning: UBERON:0005159
+      quadrangular lobule:
+        description: UBERON region 'quadrangular lobule' (UBERON:0036063).
+        meaning: UBERON:0036063
+      raphe nuclei:
+        description: we treat NR obscurus, NR magnus etc as parts of the raphe nuclei. This is consistent with treatment in FMA, where the class is 'set of raphe nuclei'
+        meaning: UBERON:0004684
+      regional part of brain:
+        description: Anatomical divisons of the brain according to one or more criteria, e.g. cytoarchitectural, gross anatomy. Parts may be contiguous in 3D or not, e.g., basal ganglia.
+        meaning: UBERON:0002616
+      regional part of cerebellar cortex:
+        description: A regional part of brain that is part of a cerebellar cortex [Automatically generated definition].
+        meaning: UBERON:0002749
+      reticular formation:
+        description: A composite substructure of the brainstem that consists of the midbrain reticular formation, the pontine reticular formation and the medullary reticular formation ( Carpenter-1983 ).
+        meaning: UBERON:0002275
+      retrohippocampal region:
+        description: 'UBERON region ''retrohippocampal region'' (UBERON:0022230). Synonyms: retrohippocampal cortex.'
+        meaning: UBERON:0022230
+      retrolenticular part of internal capsule:
+        description: 'UBERON region ''retrolenticular part of internal capsule'' (UBERON:0034749). Synonyms: pars retrolenticularis capsulae internae, pars retrolentiformis (capsulae internae), pars retrolentiformis.'
+        meaning: UBERON:0034749
+      retrorubral area of midbrain reticular nucleus:
+        description: The term retrorubral area of the midbrain reticular nucleus refers to a region of the rat brain caudal and dorsal to the ventral tegmental area. It is one of three parts of the midbrain reticular nucleus; the other two are the magnocellular part of the midbrain reticular nucleus and the parvicellular part of the midbrain reticular nucleus (Swanson-2004). BrainInfo distinguishes between the Retrorubral area of the midbrain reticular formation and the retrorubral nucleus.
+        meaning: UBERON:0011172
+      retrosplenial granular cortex:
+        description: 'UBERON region ''retrosplenial granular cortex'' (UBERON:0014918). Synonyms: retrosplenial area, ventral part, retrosplenial cortex, ventral part, retrosplenial granular area.'
+        meaning: UBERON:0014918
+      retrosplenial region:
+        description: The retrosplenial region is a brain area and part of the cingulate cortex. It is defined by Brodmann area 26, Brodmann area 29 and the Brodmann area 30.
+        meaning: UBERON:0013531
+      right auditory cortex:
+        description: An auditory cortex that is in the left side of a brain.
+        meaning: UBERON:0009897
+      right dorsal thalamus:
+        description: A dorsal thalamus that is in_the_right_side_of a diencephalon.
+        meaning: UBERON:0013684
+      right hemisphere of cerebellum:
+        description: A cerebellar hemisphere that is in_the_right_side_of a cerebellum.
+        meaning: UBERON:0014890
+      rostral anterior cingulate cortex:
+        description: Component of the cingulate cortex. The rostral boundary was the first appearance of the cingulate sulcus (inferior to the superior frontal sulcus) whereas the caudal boundary was the first appearance of the genu of the corpus callosum. The medial boundary was the medial aspect of the cortex. The supero-lateral boundary was the superior frontal gyrus whereas the infero-lateral boundary was defined as the medial division of the orbitofrontal gyrus (Christine Fennema-Notestine).
+        meaning: UBERON:0022438
+      rostral CA1:
+        description: 'UBERON region ''rostral CA1'' (UBERON:0034777). Synonyms: CA1R.'
+        meaning: UBERON:0034777
+      rostral CA2:
+        description: 'UBERON region ''rostral CA2'' (UBERON:0034778). Synonyms: CA2R.'
+        meaning: UBERON:0034778
+      rostral CA3:
+        description: 'UBERON region ''rostral CA3'' (UBERON:0034779). Synonyms: CA3R.'
+        meaning: UBERON:0034779
+      rostral middle frontal gyrus:
+        description: Component of the middle frontal gyrus The rostral boundary is the first appearance of the superior frontal sulcus whereas the caudal boundary is the middle frontal gyrus. The medial and lateral boundaries are the superior frontal sulcus and the inferior frontal sulcus respectively (Christine Fennema-Notestine).
+        meaning: UBERON:0006446
+      rostral migratory stream:
+        description: Unique telencephalic subventricular zones that extend from the lateral ventricles into the olfactory bulbs. Newly produced GABAergic interneurons migrate along the RMS and settle in the bulb.
+        meaning: UBERON:0008881
+      rostral periventricular region of the third ventricle:
+        description: A functional anatomical construct containing the key estrogen-regulated inputs to gonadotropin-releasing hormone expressing (GnRH) neurons necessary for estrogen positive feedback. The rostral periventricular region of the third ventricle contains a population of neurons, scattered through the nuclei of the anteroventral periventricular (AVPV), periventricular preoptic (PVpo), and median preoptic (MEPO), that project directly to GnRH neurons and express ER-alpha.
+        meaning: UBERON:8440005
+      rostral portion of the medial accessory olive:
+        description: 'UBERON region ''rostral portion of the medial accessory olive'' (UBERON:0024043). Synonyms: rostral portion of the medial accessory olive.'
+        meaning: UBERON:0024043
+      rostral ventrolateral medulla:
+        description: Control of blood pressure is crucially dependent on the integrity of a small region of the brainstem called the ventrolateral medulla. Within this part of the brain are the cells that control the heart, blood vessels, swallowing, breathing and many other functions of the body that are not noticed at a conscious level; such unconscious activities are known as 'Autonomic'. One of these regions is the Rostral Ventrolateral Medulla (RVLM) is also known as the pressor area of the medulla (medulla pressor). It receives inhibitory GABAergic input from the caudal ventrolateral medulla (CVLM). The RVLM is the primary regulator of the sympathetic nervous system, sending excitatory fibers (catecholaminergic) to the sympathetic preganglionic neurons in the spinal cord, via reticulospinal tract[WP].
+        meaning: UBERON:0005807
+      rostrolateral area, layer 5:
+        description: 'UBERON region ''rostrolateral area, layer 5'' (UBERON:0035920). Synonyms: VISrl5.'
+        meaning: UBERON:0035920
+      rostrolateral visual area:
+        description: 'UBERON region ''rostrolateral visual area'' (UBERON:0035912). Synonyms: VISrl.'
+        meaning: UBERON:0035912
+      saccus vasculosus:
+        description: A circumventricular organ of the hypothalamus of many jawed fishes, protruding from the caudal infundibular wall. It is a vascularized neuroepithelium that consists of coronet cells, cerebrospinal fluid-contacting neurons and supporting cells.
+        meaning: UBERON:0034943
+      second visual cortical area (sensu Mustela putorius furo):
+        description: A visual area in the ferret that is rostral to area 17, caudal to area 19 and also abuts PPc and area 20a.
+        meaning: UBERON:8440045
+      secondary auditory cortex:
+        description: The part of the auditory cortex that receive more diffuse input from the belt areas of the medial geniculate complex.
+        meaning: UBERON:0034752
+      secondary olfactory cortex:
+        description: Brodmann's area 28; major gateway for neocortical input to the hippocampus; origin of the perforant pathway; a component of the medial temporal lobe memory system. (CSP) * The cytoarchitecturally well-defined area of multilaminate cerebral cortex on the medial aspect of the parahippocampal gyrus, immediately caudal to the olfactory cortex of the uncus. The entorhinal cortex is the origin of the major neural fiber system afferent to the hippocampus, the so-called PERFORANT PATHWAY. (Stedman, 25th ed).
+        meaning: UBERON:0002895
+      secondary prosencephalon:
+        description: may contain the optic recess region (ORR) in the new model proposed by Yamamoto et al. 2017 (see https://www.ncbi.nlm.nih.gov/pubmed/28470718)
+        meaning: UBERON:0036218
+      secondary somatosensory cortex:
+        description: The area of the upper bank of the lateral sulcus that is involved in somatic sensation.
+        meaning: UBERON:0008934
+      secondary visual cortex:
+        description: A functional part of the visual cortex that plays a crucial role in the integration of information from various visual modalities and contribute to higher-order visual functions, including colour, object recognition and spatial awareness.
+        meaning: UBERON:0022232
+      secretory circumventricular organ:
+        description: A circumventricular organ that is capable of secreting substances into the cerebrospinal fluid.
+        meaning: UBERON:0010134
+      sensory circumventricular organ:
+        description: A circumventricular organ that is capable of monitoring the levels of substances to the cerebrospinal fluid.
+        meaning: UBERON:0010135
+      shell of nucleus accumbens:
+        description: Crescent shaped outer zone of the nucleus accumbens, defined by a combination of chemoarchitecture and afferent and efferent connections. The shell is distinguished from the more centrally located core through the notable reduction in staining for the calcium-binding protein calbindin D28K, which is dense in the core and virtually absent in the shell.
+        meaning: UBERON:0012171
+      somatomotor area:
+        description: A part of the cerebral cortex that comprises of the primary motor cortex and the premotor cortex.
+        meaning: UBERON:8440076
+      somatosensory cortex:
+        description: Area of the parietal lobe concerned with receiving general sensations. It lies posterior to the central sulcus.
+        meaning: UBERON:0008930
+      Sommer's sector:
+        description: Part of hippocampal formation comprising area CA1 and the subiculum (pg 425, Heimer, L. The human brain and spinal cord, Springer-Verlag, 1995).
+        meaning: UBERON:0023932
+      spenial visual area (sensu Mustela putorius furo):
+        description: A visual area in the ferret located on the dorsal bank of the splenial sulcus between the medial border of area 17 and the lateral borter of CVA.
+        meaning: UBERON:8440064
+      spinocerebellum:
+        description: A phylogenetic subdivision of the cerebellum, the intermediate part, which regulates body and limb movements. It receives proprioception input from the dorsal columns of the spinal cord (including the spinocerebellar tract) and the trigeminal nerve, as well as from visual and auditory systems. It sends fibres to deep cerebellar nuclei which in turn project to both the cerebral cortex and the brain stem, thus providing modulation of descending motor systems.
+        meaning: UBERON:0014643
+      stomatogastric nerve (sensu Cancer borealis):
+        description: The stomatogastric nerve (SGN) is made up of four separate nerves that emerge from the paired commissural ganglia, the superior and inferior esophageal nerves (SONs and IONs).
+        meaning: UBERON:8910010
+      striosomal part of body of caudate nucleus:
+        description: 'UBERON region ''striosomal part of body of caudate nucleus'' (UBERON:0027244). Synonyms: striosomal part of body of caudate nucleus.'
+        meaning: UBERON:0027244
+      striosomal part of caudate nucleus:
+        description: 'UBERON region ''striosomal part of caudate nucleus'' (UBERON:0029004). Synonyms: striosomal part of caudate nucleus.'
+        meaning: UBERON:0029004
+      striosomal part of putamen:
+        description: 'UBERON region ''striosomal part of putamen'' (UBERON:0029005). Synonyms: striosomal part of putamen.'
+        meaning: UBERON:0029005
+      striosome:
+        description: One of two compartments identified in the neostriatum, particularly the caudate nucleus, on the basis of differential staining for several biochemical markers such as acetylcholinesterase and calbindin. In individual sections, the striosomes appear as small patches of differentially high or low staining activity. In three dimensions, they form a 3D labyrinth extending throughout the caudate nucleus and in the putamen.
+        meaning: UBERON:0027371
+      subcommissural organ:
+        description: Occurs throughout the vertebartes [PMID:9579598, DOI:10.1002/ar.1091260210]. First appears in hagfish(Olsson). In many species, including the human, it reaches its full development during embryonic life[PMID:9579598]. During the course of phyletic evolution, one notes various changes. Indeed, in lower vertebrates, the SCO presents a greater degree of enzyme activity than the ependyma while in birds the ependyma demonstrates a more intense activity than the SCO[PMID:479574] Sometimes preceded by flexural organ[DOI:10.1007/BF00303086]. Hypendymal cells are rare in non-mammals [PMID:9579598].
+        meaning: UBERON:0002139
+      subdivision of diagonal band:
+        description: 'UBERON region ''subdivision of diagonal band'' (UBERON:0006125). Synonyms: diagonal band subdivision, regional part of diagonal band.'
+        meaning: UBERON:0006125
+      subfornical organ:
+        description: Group of neurons situated on the ventral surface of the fornix at the level of the foramen of Monro in the third ventricle (adapted from Wikipedia via NIF).
+        meaning: UBERON:0002219
+      subicular complex:
+        description: A composite structure of the temporal lobe that includes the subiculum, the presubiculum and the parasubicular area (Amaral-90).
+        meaning: UBERON:0023787
+      subiculum:
+        description: Part of the hippocampal formation that is bounded by the entorhinal cortex and area CA1. It is characterized on the CA1 border by an abrupt widening of the pyramidal cell layer. A molecular layer is present that is continuous with that of CA1, although the stratum radiatum is no longer present. The stratum oriens is also not present. adapted from Paxinos, G. The rat central nervous system, 2nd ed, Academic Press, San Diego, 1995, pg. 468).
+        meaning: UBERON:0002191
+      subparaventricular zone:
+        description: UBERON region 'subparaventricular zone' (UBERON:0007626).
+        meaning: UBERON:0007626
+      substantia nigra pars lateralis:
+        description: 'UBERON region ''substantia nigra pars lateralis'' (UBERON:0002995). Synonyms: internal capsule (Burdach), lateral part of substantia nigra, pars lateralis substantiae nigrae.'
+        meaning: UBERON:0002995
+      superficial feature part of forebrain:
+        description: 'UBERON region ''superficial feature part of forebrain'' (UBERON:0023443). Synonyms: superficial feature part of forebrain.'
+        meaning: UBERON:0023443
+      superficial feature part of occipital lobe:
+        description: 'UBERON region ''superficial feature part of occipital lobe'' (UBERON:0023462). Synonyms: superficial feature part of occipital lobe.'
+        meaning: UBERON:0023462
+      superficial feature part of the cerebellum:
+        description: 'UBERON region ''superficial feature part of the cerebellum'' (UBERON:0024046). Synonyms: superficial feature part of the cerebellum.'
+        meaning: UBERON:0024046
+      superficial pretectum:
+        description: UBERON region 'superficial pretectum' (UBERON:2000687).
+        meaning: UBERON:2000687
+      superior cerebellar peduncle of midbrain:
+        description: Regional part of superior cerebellar peduncle, located in the midbrain, consisting of a large bundle of fibers largely projecting from the deep cerebellar nuclei to the midbrain and thalamus. It is continuous with the superior cerebellar peduncle of the pons. (MM).
+        meaning: UBERON:0007707
+      superior cerebellar peduncle of pons:
+        description: 'UBERON region ''superior cerebellar peduncle of pons'' (UBERON:0007709). Synonyms: SCPP, SCPP, pedunculus cerebellaris superior (pontis).'
+        meaning: UBERON:0007709
+      superior colliculus:
+        description: ). In hagfish, lamprey, and shark it is a relatively small structure, but in teleost fish it is greatly expanded, in some cases becoming the largest structure in the brain. (See the adjoining drawing of a codfish brain.) In amphibians, reptiles, and especially birds it is also a very significant component, but in mammals it is dwarfed by the massive expansion of the cerebral cortex.
+        meaning: UBERON:0001945
+      superior corona radiata:
+        description: 'UBERON region ''superior corona radiata'' (UBERON:0022426). Synonyms: cor-s, superior portion of corona radiata.'
+        meaning: UBERON:0022426
+      superior esophageal nerve (sensu Cancer borealis):
+        description: The superior esophageal nerve (SON) is one of the four nerves that make up the stomatogastric nerve (SGN).
+        meaning: UBERON:8910018
+      superior lateral occipital cortex:
+        description: 'UBERON region ''superior lateral occipital cortex'' (UBERON:0022368). Synonyms: lateral occipital cortex, superior division.'
+        meaning: UBERON:0022368
+      superior rostral gyrus:
+        description: 'UBERON region ''superior rostral gyrus'' (UBERON:0019279). Synonyms: superior rostral gyrus.'
+        meaning: UBERON:0019279
+      superior transverse frontopolar gyrus:
+        description: 'UBERON region ''superior transverse frontopolar gyrus'' (UBERON:0024201). Synonyms: superior transverse frontopolar gyrus.'
+        meaning: UBERON:0024201
+      supplemental motor cortex:
+        description: The supplementary motor area (SMA) is a part of the sensorimotor cerebral cortex (perirolandic, i.e. on each side of the Rolando or central sulcus). It was included, on purely cytoarchitectonic arguments, in area 6 of Brodmann and the Vogts. It is located on the medial face of the hemisphere, just in front of primary motor cortex. This is an element that appeared late in evolution, in monkeys, linked to the appearance of a true medial pallidum.
+        meaning: UBERON:0016636
+      suprachiasmatic nucleus dorsomedial part:
+        description: 'UBERON region ''suprachiasmatic nucleus dorsomedial part'' (UBERON:0027768). Synonyms: suprachiasmatic nucleus dorsomedial part.'
+        meaning: UBERON:0027768
+      suprachiasmatic nucleus ventrolateral part:
+        description: 'UBERON region ''suprachiasmatic nucleus ventrolateral part'' (UBERON:0027771). Synonyms: suprachiasmatic nucleus ventrolateral part.'
+        meaning: UBERON:0027771
+      supraoptic crest:
+        description: One of the circumventricular organs of the brain. The OVLT is outside the blood brain barrier, and so neurons in this region can respond to factors that are present in the systemic circulation.
+        meaning: UBERON:0002689
+      synencephalon:
+        description: UBERON region 'synencephalon' (UBERON:2000293).
+        meaning: UBERON:2000293
+      telencephalic dopaminergic cell group:
+        description: 'UBERON region ''telencephalic dopaminergic cell group'' (UBERON:0036011). Synonyms: telencephalic DA cell group, telencephalic DA neurons, telencephalic dopamine cells.'
+        meaning: UBERON:0036011
+      telencephalon:
+        description: Part of the forebrain consisting of paired olfactory bulbs and cerebral hemispheres.
+        meaning: UBERON:0001893
+      temporal cortex association area:
+        description: 'UBERON region ''temporal cortex association area'' (UBERON:0035013). Synonyms: temporal association area, temporal association areas, temporal association cortex.'
+        meaning: UBERON:0035013
+      temporal fusiform gyrus:
+        description: 'UBERON region ''temporal fusiform gyrus'' (UBERON:0022395). Synonyms: FuGt, occipitotemporal (fusiform) gyrus, temporal part.'
+        meaning: UBERON:0022395
+      temporal operculum:
+        description: Part of temporal lobe overlaying the insular cortex.
+        meaning: UBERON:0002560
+      temporal pole:
+        description: Anterior component of the temporal lobe (rostral boundary) extends caudally to the entorhinal cortex. The medial and lateral boundaries are the medial aspect of the temporal lobe and the superior or inferior temporal sulci, respectively (Christine Fennema-Notestine).
+        meaning: UBERON:0002576
+      temporal visual area a (sensu Mustela putorius furo):
+        description: A visual area in the ferret that is posterior to area 20b and lies lateral to areas 17, 18, and 19.
+        meaning: UBERON:8440048
+      temporal visual area b (sensu Mustela putorius furo):
+        description: A visual area in the ferret that is posterior to area PS and anterior to 20a.
+        meaning: UBERON:8440049
+      temporoparietal junction:
+        description: An area of the brain that locates at the interception of temporal and parietal cortices (at the posterior end of the Sylvian fissure).
+        meaning: UBERON:0023852
+      thalamic eminence:
+        description: 'UBERON region ''thalamic eminence'' (UBERON:0014912). Synonyms: EMT, eminentia thalami.'
+        meaning: UBERON:0014912
+      third visual cortical area (sensu Mustela putorius furo):
+        description: A visual area in the ferret located rostral to area 18 and caudal to area 21.
+        meaning: UBERON:8440046
+      Tootell and Hadjikhani (2001) LOC/LOP complex:
+        description: Cortical parcel in occipital cortex of human according to Tootell and Hadjikhani 2001 that is activated preferentially by more peripheral stimuli compared to the adjacent lateral occipital central parcel.
+        meaning: UBERON:0026775
+      torus longitudinalis:
+        description: UBERON region 'torus longitudinalis' (UBERON:2000449).
+        meaning: UBERON:2000449
+      torus semicircularis:
+        description: UBERON region 'torus semicircularis' (UBERON:2000599).
+        meaning: UBERON:2000599
+      transverse frontopolar gyri complex:
+        description: 'UBERON region ''transverse frontopolar gyri complex'' (UBERON:0022730). Synonyms: transverse frontopolar gyri complex, transverse frontopolar gyri.'
+        meaning: UBERON:0022730
+      tuber cinereum:
+        description: Part of hypothalamus consisting of hollow eminence of gray matter situated between the mammilary bodies and the optic chiasm visible on the basal surface of the brain (adapted from Wikipedia).
+        meaning: UBERON:0002620
+      tuberomammillary nucleus dorsal part:
+        description: 'UBERON region ''tuberomammillary nucleus dorsal part'' (UBERON:0014593). Synonyms: TMd, tuberomammillary nucleus dorsal part, tuberomammillary nucleus, dorsal part.'
+        meaning: UBERON:0014593
+      tuberomammillary nucleus ventral part:
+        description: 'UBERON region ''tuberomammillary nucleus ventral part'' (UBERON:0014594). Synonyms: TMv, tuberomammillary nucleus ventral part.'
+        meaning: UBERON:0014594
+      uncal CA1:
+        description: 'UBERON region ''uncal CA1'' (UBERON:0034774). Synonyms: CA1U.'
+        meaning: UBERON:0034774
+      uncal CA2:
+        description: 'UBERON region ''uncal CA2'' (UBERON:0034775). Synonyms: CA2U.'
+        meaning: UBERON:0034775
+      uncal CA3:
+        description: 'UBERON region ''uncal CA3'' (UBERON:0034776). Synonyms: CA3U.'
+        meaning: UBERON:0034776
+      uncinate fasciculus of the forebrain:
+        description: A fiber pathway in the cerebral white matter that connects anterior portions of the temporal lobe with the inferior frontal gyrus and the middle frontal gyrus. It is not readily distinguished in myelin-stained cross-sections (adapted from Brain Info).
+        meaning: UBERON:0019275
+      uncus of parahippocampal gyrus:
+        description: The anterior extremity of the Parahippocampal gyrus is recurved in the form of a hook, the uncus, which is separated from the apex of the temporal lobe by a slight fissure, the incisura temporalis. Although superficially continuous with the hippocampal gyrus, the uncus forms morphologically a part of the rhinencephalon. The term uncus was coined by Felix Vicq dbAzyr (1748b1794).
+        meaning: UBERON:0034773
+      upper rhombic lip:
+        description: Anterior-most region of dorsal hindbrain within rhombomere 1, adjacent the midbrain-hindbrain boundary.
+        meaning: UBERON:0009841
+      valvula cerebelli:
+        description: Brain structure which is caudally attached to the rostral medulla oblongata and extends into the tectal ventricle. The valvula cerebelli consists of a granular and a molecular layer along with aggregations of large Purkinje and eurydendroid cells and is uniquely present in ray-finned fishes. From Neuroanatomy of the Zebrafish Brain.
+        meaning: UBERON:2000603
+      ventral lateral suprasylvian visual area (sensu Mustela putorius furo):
+        description: A visual area in the ferret located in the medial bank of the suprasylvian sulvus lateral to area PMLS.
+        meaning: UBERON:8440061
+      ventral pallium:
+        description: The pallial region located next to the pallium-subpallium boundary.
+        meaning: UBERON:0014913
+      ventral part of telencephalon:
+        description: Ventral part (base region) of the telencephalon.
+        meaning: UBERON:0000204
+      ventral tegmental area:
+        description: Unpaired midbrain region situated in the ventromedial portion of the reticular formation. The VTA is medial to the substantia nigra and ventral to the red nucleus, and extends caudally from the posterior hypothalamus in the diencephalon. The VTA contains dopamine neurons that project to various limbic and cortical areas and is a critical component of the brain's reward circuitry.
+        meaning: UBERON:0002691
+      ventral thalamus:
+        description: Some sources treat the subthalamus as distinct from the thalamus, separated by the zona limitans intrathalamica. In MA, the ventral thalamus is part of the thalamus. Butler Hodos who identify a dorsal to ventral sequence consisting of epithalamus, dorsal thalamus, ventral thalamus and hypothalamus. We solve this by considering dorsal and ventral thalamus distinct, and the label thalamus as being ambiguous w.r.t thalamus proper (dorsal thalamus) or wider thalamus (dorsal plus ventral)
+        meaning: UBERON:0001900
+      ventral zone:
+        description: UBERON region 'ventral zone' (UBERON:2000707).
+        meaning: UBERON:2000707
+      ventral zone of medial entorhinal cortex:
+        description: 'UBERON region ''ventral zone of medial entorhinal cortex'' (UBERON:0018263). Synonyms: entorhinal area, medial part, ventral zone [Haug], entorhinal area, medial part, ventral zone, entorhinal area, medial part, ventral zone.'
+        meaning: UBERON:0018263
+      ventro-caudal cluster:
+        description: Early-forming neural cluster of the ventral midbrain. At 16 h, axons of the vcc grow caudally to pioneer the medial longitudinal fasciculus (MLF), which is part of the larger ventral longitudinal tract (VLT). Later, neurons from this cluster project axons rostrally into the tract of the post-optic commissure (TPOC). Ross et al., 1992.
+        meaning: UBERON:2007003
+      vermis of the flocculonodular lobe of the cerebellum:
+        description: 'UBERON region ''vermis of the flocculonodular lobe of the cerebellum'' (UBERON:0024037). Synonyms: flocculonodular vermis, vermis of the flocculonodular lobe of the cerebellum.'
+        meaning: UBERON:0024037
+      vertical limb of the diagonal band:
+        description: 'UBERON region ''vertical limb of the diagonal band'' (UBERON:0006124). Synonyms: crus verticale striae diagonalis, nucleus of the vertical limb of the diagonal band, vertical limb of diagonal band.'
+        meaning: UBERON:0006124
+      vestibulocerebellum:
+        description: A phylogenetic subdivision of the cerebellum, the oldest part, which regulates balance and eye movements. It receives vestibular input from both the semicircular canals and from the vestibular nuclei, and sends fibres back to the medial and lateral vestibular nuclei. It also receives visual input from the superior colliculi and from the visual cortex (the latter via the pontine nuclei, forming a cortico-ponto-cerebellar pathway). Lesions of the vestibulocerebellum cause disturbances of balance and gait.
+        meaning: UBERON:0014642
+      vestibulolateralis lobe:
+        description: UBERON region 'vestibulolateralis lobe' (UBERON:2000307).
+        meaning: UBERON:2000307
+      visceral area:
+        description: A cortical area between the agranular insular cortex and the supplemental somatosensory area in rats and mice. The VISC is the architectonically equivalent structure granular insula in humans.
+        meaning: UBERON:8440024
+      visual association cortex:
+        description: Part of cortex considered to function in higher level visual functions.
+        meaning: UBERON:0034750
+      visual cortex:
+        description: The visual cortex is made up of Brodmann area 17 (the primary visual cortex), and Brodmann area 18 and Brodmann area 19, the extrastriate cortical areas, in humans.
+        meaning: UBERON:0000411

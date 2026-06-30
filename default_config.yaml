@@ -1,0 +1,19 @@
+namespaces:
+  core:
+    version: 2.10.0
+    data_types:
+      Subject:
+        species:
+          termset: term_sets/subject_species_ncbitaxon_termset.yaml
+      ElectrodeGroup:
+        location:
+          termset: term_sets/brain_region_uberon_termset.yaml
+      ImagingPlane:
+        location:
+          termset: term_sets/brain_region_uberon_termset.yaml
+      IntracellularElectrode:
+        location:
+          termset: term_sets/brain_region_uberon_termset.yaml
+      OptogeneticStimulusSite:
+        location:
+          termset: term_sets/brain_region_uberon_termset.yaml
