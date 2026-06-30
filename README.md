@@ -14,10 +14,24 @@ pip install -e .
 
 ## Usage
 
+See `scripts/example_usage.py` for a complete example of how to use the termsets and generate a HERD table.
+
 ```python
 import nwb_termsets
+from pynwb import NWBFile
+from pynwb.file import Subject
 
+# Load the termset configuration into PyNWB
 nwb_termsets.load_termset_config()
+
+# Now when you create a Subject, the species will be validated against the NCBITaxon termset
+subject = Subject(
+    subject_id="sub-001",
+    age="P90D",
+    description="Example subject",
+    species="Mus musculus",  # This is validated
+    sex="M",
+)
 ```
 
 ## Included resources

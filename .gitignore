@@ -142,3 +142,6 @@ Thumbs.db
 
 # Lab Termsets
 lab_termsets/my_lab_termsets/
+
+# Example output
+example_termsets.nwb

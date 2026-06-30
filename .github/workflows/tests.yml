@@ -30,3 +30,7 @@ jobs:
     - name: Run tests
       run: |
         pytest tests/
+        
+    - name: Run example script
+      run: |
+        python scripts/example_usage.py
