@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nwb-termsets"
+version = "0.1.0"
+description = "Default external-resource configuration and term sets for PyNWB"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pynwb>=4.0.0",
+    "hdmf>=6.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/NeurodataWithoutBorders/pynwb"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["nwb_termsets*"]
+
+[tool.setuptools.package-data]
+"nwb_termsets" = ["*.yaml", "term_sets/*.yaml"]

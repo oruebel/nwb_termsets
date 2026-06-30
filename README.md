@@ -37,9 +37,9 @@ PyNWB's current type configurator expects each configured field to point at a fi
 ## Usage
 
 ```python
-from pynwb import load_type_config
+import nwb_termsets
 
-load_type_config(config_path="bbqs_config/default_config.yaml")
+nwb_termsets.load_termset_config()
 ```
 
 The term-set paths in `default_config.yaml` are relative on purpose. PyNWB resolves them relative to the configuration file, so the directory can be copied as a self-contained bundle.
@@ -49,10 +49,10 @@ The term-set paths in `default_config.yaml` are relative on purpose. PyNWB resol
 The brain-region term sets are generated files. To regenerate them:
 
 ```bash
-python bbqs_config/scripts/generate_brain_region_termsets.py
+python scripts/generate_brain_region_termsets.py
 ```
 
-See `bbqs_config/scripts/README.md` for the exact scope, requirements, and generation rules.
+See `scripts/README.md` for the exact scope, requirements, and generation rules.
 
 ## Customizing atlas choice
 
@@ -60,6 +60,19 @@ See `bbqs_config/scripts/README.md` for the exact scope, requirements, and gener
 
 - `term_sets/brain_region_mba_termset.yaml` for Allen Mouse Brain Atlas labels
 - `term_sets/brain_region_hba_termset.yaml` for Allen Human Brain Atlas labels
+
+Alternatively, you can manually wrap specific fields with a `TermSetWrapper` in your code without modifying the default configuration. This is useful if you want to use a specific atlas for only certain fields or files.
+
+```python
+from hdmf.term_set import TermSetWrapper
+import nwb_termsets
+
+# Use the Mouse Brain Atlas for a specific electrode group
+electrode_group.location = TermSetWrapper(
+    value="primary motor cortex",
+    termset=nwb_termsets.get_termset_path("brain_region_mba_termset.yaml")
+)
+```
 
 ## Scope note
 
