@@ -1,6 +1,6 @@
 import os
 import pytest
-import yaml
+from ruamel.yaml import YAML
 import nwb_termsets
 import pynwb
 
@@ -33,8 +33,9 @@ def test_default_config_exists():
     config_path = os.path.join(os.path.dirname(nwb_termsets.__file__), "default_config.yaml")
     assert os.path.exists(config_path)
     
+    yaml = YAML(typ='safe')
     with open(config_path, "r") as f:
-        config = yaml.safe_load(f)
+        config = yaml.load(f)
         
     assert "namespaces" in config
     assert "core" in config["namespaces"]
