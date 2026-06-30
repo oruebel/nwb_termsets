@@ -1,5 +1,7 @@
 # PyNWB default external-resource configuration
 
+> **⚠️ WARNING:** This repository is a work in progress and is not intended for production use. The term sets and configuration provided here are subject to change.
+
 This directory provides ontology-backed term sets and a loader-compatible `default_config.yaml` for PyNWB users who want to validate common metadata against shared ontologies and atlases.
 
 The shipped defaults are intentionally conservative:
