@@ -16,6 +16,7 @@ dependencies = [
 [project.urls]
 Homepage = "https://github.com/NeurodataWithoutBorders/pynwb"
 
+
 [tool.setuptools.packages.find]
 where = ["src"]
 include = ["nwb_termsets*"]

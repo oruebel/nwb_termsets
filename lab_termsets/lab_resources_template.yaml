@@ -1,0 +1,18 @@
+# Example Lab Resources Manifest
+# Use this file to generate lab-specific term sets for ORCID, ROR, and DANDI identifiers.
+# Run: generate-lab-termsets --manifest lab_resources_template.yaml --outdir my_lab_termsets
+
+experimenter:
+  source: orcid
+  values:
+    - orcid: 0000-0001-9902-1984
+
+institution:
+  source: ror
+  values:
+    - ror: 02jbv0t02
+
+dandiset:
+  source: dandi
+  values:
+    - dandiset_id: "001417"

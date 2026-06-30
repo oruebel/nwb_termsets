@@ -4,6 +4,14 @@
 
 This directory provides ontology-backed term sets and a loader-compatible `default_config.yaml` for PyNWB users who want to validate common metadata against shared ontologies and atlases and automatically populate HERD annotations. 
 
+## Installation
+
+You can install this package directly using pip:
+
+```bash
+pip install -e .
+```
+
 ## Usage
 
 ```python
@@ -35,6 +43,8 @@ The shipped defaults are intentionally conservative:
 
 PyNWB's current type configurator expects each configured field to point at a finite LinkML term set file. That works well for shared ontology-backed vocabularies such as species and anatomical locations, but it is not a good fit for global registries such as ORCID and ROR or for project-specific DANDI identifiers. Those are still recommended external resources; they are simply better added directly through HERD annotations or through lab-specific term sets.
 
+To support these resources, this package provides a script (`scripts/generate_lab_termsets.py`) that allows labs to generate their own custom term sets and configuration files based on a simple YAML manifest. This approach ensures that labs can validate their specific experimenters, institutions, and related publications without needing to maintain a massive, global list of all possible values.
+
 ## Files
 
 - `default_config.yaml` wires the default term sets into PyNWB's type configuration. The term-set paths in `default_config.yaml` are relative on purpose. PyNWB resolves them relative to the configuration file, so the directory can be copied as a self-contained bundle.
@@ -44,6 +54,75 @@ PyNWB's current type configurator expects each configured field to point at a fi
 - `term_sets/brain_region_hba_termset.yaml` contains the complete Allen Human Brain Atlas export.
 - `scripts/generate_brain_region_termsets.py` regenerates the ontology-backed brain-region term sets.
 - `scripts/README.md` documents the generator workflow and scope.
+
+## Generating Lab-Specific Term Sets
+
+For global registries like ORCID, ROR, and DANDI, it is recommended to generate lab-specific term sets rather than relying on a shared, exhaustive list. This package provides a command-line tool to generate these term sets from a simple YAML manifest.
+
+1. Create a manifest file (e.g., `my_lab_resources.yaml`) based on the provided `lab_termsets/lab_resources_template.yaml`. You can look up identifiers at the following registries:
+   - **ORCID** (Experimenters): [https://orcid.org/](https://orcid.org/)
+   - **ROR** (Institutions): [https://ror.org/search](https://ror.org/search)
+   - **DANDI** (Dandisets): [https://dandiarchive.org/](https://dandiarchive.org/)
+
+```yaml
+experimenter:
+  source: orcid
+  values:
+    - orcid: 0000-0001-9902-1984
+
+institution:
+  source: ror
+  values:
+    - ror: 02jbv0t02
+
+dandiset:
+  source: dandi
+  values:
+    - dandiset_id: "001417"
+```
+
+2. Run the generator script:
+
+```bash
+python scripts/generate_lab_termsets.py --manifest my_lab_resources.yaml --outdir lab_termsets/my_lab_termsets
+```
+
+This will fetch canonical labels from the respective APIs and generate LinkML term set YAML files, along with a `lab_config.yaml` snippet.
+
+### Using Lab-Specific Term Sets
+
+You can use the generated lab-specific term sets in two ways:
+
+**1. Loading the generated configuration:**
+
+The generator creates a `lab_config.yaml` file that maps the term sets to the appropriate PyNWB fields. You can load this alongside the default configuration:
+
+```python
+import nwb_termsets
+from pynwb import load_type_config
+
+# Load default configuration
+nwb_termsets.load_termset_config()
+
+# Load lab-specific configuration
+load_type_config('lab_termsets/my_lab_termsets/lab_config.yaml')
+```
+
+**2. Manually wrapping specific fields:**
+
+If you prefer not to use the configuration file, you can manually wrap specific fields with a `TermSetWrapper` in your code:
+
+```python
+from hdmf.term_set import TermSetWrapper
+
+# Use the generated experimenter term set
+nwbfile.experimenter = [
+    TermSetWrapper(
+        value="Oliver Ruebel",
+        termset="lab_termsets/my_lab_termsets/lab_experimenter_termset.yaml"
+    )
+]
+```
 
 ## Regenerating generated term sets
 
