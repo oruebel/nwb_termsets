@@ -1,6 +1,7 @@
 id: termset/nwb_brain_regions_uberon
 name: NWBBrainRegionsUberon
-version: 0.1.0
+version: '2026-06-19'
+description: UBERON brain region term set. Generated on 2026-06-30 from UBERON version 2026-06-19.
 prefixes:
   UBERON: http://purl.obolibrary.org/obo/UBERON_
 imports:

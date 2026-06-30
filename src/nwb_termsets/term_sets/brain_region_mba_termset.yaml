@@ -1,6 +1,7 @@
 id: termset/nwb_brain_regions_mba
 name: NWBBrainRegionsMBA
-version: 0.1.0
+version: '2025-10-29'
+description: Allen Mouse Brain Atlas term set. Generated on 2026-06-30 from MBA version 2025-10-29.
 prefixes:
   MBA: https://purl.brain-bican.org/ontology/mbao/MBA_
 imports:

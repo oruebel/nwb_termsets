@@ -1,6 +1,7 @@
 id: termset/nwb_brain_regions_hba
 name: NWBBrainRegionsHBA
-version: 0.1.0
+version: '2025-02-10'
+description: Allen Human Brain Atlas term set. Generated on 2026-06-30 from HBA version 2025-02-10.
 prefixes:
   HBA: https://purl.brain-bican.org/ontology/hbao/HBA_
 imports:

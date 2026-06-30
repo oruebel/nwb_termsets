@@ -15,7 +15,9 @@ scoped to a curated species list rather than a full ontology export.
 from __future__ import annotations
 
 import argparse
+import datetime
 import json
+import logging
 from collections import Counter
 from pathlib import Path
 from typing import Iterator
@@ -23,9 +25,12 @@ from urllib.request import urlopen
 
 import yaml
 
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+logger = logging.getLogger(__name__)
+
 
 ROOT = Path(__file__).resolve().parent.parent
-TERMSET_DIR = ROOT / 'term_sets'
+TERMSET_DIR = ROOT / 'src' / 'nwb_termsets' / 'term_sets'
 
 
 def fetch_json(url: str) -> dict:
@@ -79,6 +84,8 @@ def write_termset(
     *,
     termset_id: str,
     name: str,
+    version: str,
+    description: str,
     prefix_name: str,
     prefix_reference: str,
     enum_name: str,
@@ -88,7 +95,8 @@ def write_termset(
     document = {
         'id': termset_id,
         'name': name,
-        'version': '0.1.0',
+        'version': version,
+        'description': description,
         'prefixes': {prefix_name: prefix_reference},
         'imports': ['linkml:types'],
         'default_range': 'string',
@@ -115,7 +123,20 @@ def generate_uberon_termset() -> None:
     ``regional part of brain``, which is the cross-species default used by
     ``bbqs_config/default_config.yaml``.
     """
+    logger.info("Generating UBERON term set...")
     source_name = 'UBERON'
+    
+    # Fetch ontology metadata
+    ontology_meta = fetch_json('https://www.ebi.ac.uk/ols4/api/ontologies/uberon')
+    ontology_version = ontology_meta.get('config', {}).get('version')
+    if not ontology_version:
+        # Fallback to versionIri if version is null
+        version_iri = ontology_meta.get('config', {}).get('versionIri', '')
+        ontology_version = version_iri.split('/')[-2] if '/releases/' in version_iri else 'unknown'
+    
+    generation_date = datetime.datetime.now().strftime('%Y-%m-%d')
+    description = f"UBERON brain region term set. Generated on {generation_date} from UBERON version {ontology_version}."
+
     entries_by_label: dict[str, tuple[str, str]] = {}
 
     for url in (
@@ -145,15 +166,19 @@ def generate_uberon_termset() -> None:
         (label, obo_id, description)
         for label, (obo_id, description) in sorted(entries_by_label.items(), key=lambda item: item[0].casefold())
     ]
+    output_path = TERMSET_DIR / 'brain_region_uberon_termset.yaml'
     write_termset(
-        TERMSET_DIR / 'brain_region_uberon_termset.yaml',
+        output_path,
         termset_id='termset/nwb_brain_regions_uberon',
         name='NWBBrainRegionsUberon',
+        version=ontology_version,
+        description=description,
         prefix_name='UBERON',
         prefix_reference='http://purl.obolibrary.org/obo/UBERON_',
         enum_name='BrainRegions',
         entries=entries,
     )
+    logger.info(f"Successfully generated UBERON term set at {output_path} with {len(entries)} entries.")
 
 
 def generate_atlas_termset(
@@ -173,6 +198,15 @@ def generate_atlas_termset(
     Labels are disambiguated with ``[OBO_ID]`` when the ontology reuses the
     same visible label for multiple atlas terms.
     """
+    logger.info(f"Generating {source_name} term set...")
+    
+    # Fetch ontology metadata
+    ontology_meta = fetch_json(f'https://www.ebi.ac.uk/ols4/api/ontologies/{ontology}')
+    ontology_version = ontology_meta.get('config', {}).get('version', 'unknown')
+    
+    generation_date = datetime.datetime.now().strftime('%Y-%m-%d')
+    description = f"{source_name} term set. Generated on {generation_date} from {ontology.upper()} version {ontology_version}."
+
     terms = []
     for term in iter_ols_pages(f'https://www.ebi.ac.uk/ols4/api/ontologies/{ontology}/terms?size=500'):
         if term.get('is_obsolete'):
@@ -193,15 +227,19 @@ def generate_atlas_termset(
         entries.append((label, term['obo_id'], get_description(term, source_name)))
     entries.sort(key=lambda item: item[0].casefold())
 
+    output_path = TERMSET_DIR / output_name
     write_termset(
-        TERMSET_DIR / output_name,
+        output_path,
         termset_id=termset_id,
         name=schema_name,
+        version=ontology_version,
+        description=description,
         prefix_name=prefix_name,
         prefix_reference=prefix_reference,
         enum_name=enum_name,
         entries=entries,
     )
+    logger.info(f"Successfully generated {source_name} term set at {output_path} with {len(entries)} entries.")
 
 
 def main() -> None:

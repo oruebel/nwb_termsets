@@ -1,8 +1,18 @@
-# PyNWB default external-resource configuration
-
 > **⚠️ WARNING:** This repository is a work in progress and is not intended for production use. The term sets and configuration provided here are subject to change.
 
-This directory provides ontology-backed term sets and a loader-compatible `default_config.yaml` for PyNWB users who want to validate common metadata against shared ontologies and atlases.
+# PyNWB default external-resource configuration
+
+This directory provides ontology-backed term sets and a loader-compatible `default_config.yaml` for PyNWB users who want to validate common metadata against shared ontologies and atlases and automatically populate HERD annotations. 
+
+## Usage
+
+```python
+import nwb_termsets
+
+nwb_termsets.load_termset_config()
+```
+
+## Included resources
 
 The shipped defaults are intentionally conservative:
 
@@ -10,7 +20,6 @@ The shipped defaults are intentionally conservative:
 - **Provided but not enabled by default:** comprehensive atlas-specific exports for mouse and human workflows.
 - **Documented only:** registries that are recommended for HERD annotations but are not practical as a single shared global term set.
 
-## Included resources
 
 | Resource | Recommended use | NWB field(s) | Shipped term set | Enabled in `default_config.yaml` |
 | --- | --- | --- | --- | --- |
@@ -28,23 +37,13 @@ PyNWB's current type configurator expects each configured field to point at a fi
 
 ## Files
 
-- `default_config.yaml` wires the default term sets into PyNWB's type configuration.
+- `default_config.yaml` wires the default term sets into PyNWB's type configuration. The term-set paths in `default_config.yaml` are relative on purpose. PyNWB resolves them relative to the configuration file, so the directory can be copied as a self-contained bundle.
 - `term_sets/subject_species_ncbitaxon_termset.yaml` uses canonical NCBI Taxonomy labels for the species represented in the referenced public dataset table.
 - `term_sets/brain_region_uberon_termset.yaml` contains the cross-species UBERON export used by the default configuration (`brain` plus descendants of `regional part of brain`).
 - `term_sets/brain_region_mba_termset.yaml` contains the complete Allen Mouse Brain Atlas export.
 - `term_sets/brain_region_hba_termset.yaml` contains the complete Allen Human Brain Atlas export.
 - `scripts/generate_brain_region_termsets.py` regenerates the ontology-backed brain-region term sets.
 - `scripts/README.md` documents the generator workflow and scope.
-
-## Usage
-
-```python
-import nwb_termsets
-
-nwb_termsets.load_termset_config()
-```
-
-The term-set paths in `default_config.yaml` are relative on purpose. PyNWB resolves them relative to the configuration file, so the directory can be copied as a self-contained bundle.
 
 ## Regenerating generated term sets
 
